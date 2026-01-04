@@ -1,78 +1,81 @@
-# Level 3: Advanced – Customization & Extensions
+# Level 3: Advanced – Precision, Templates & Plotting
 
-## 1. Annotations (Targeted Styling)
-Apply attributes directly to Markdown elements (`<!-- element ... -->`) or the whole slide (`<!-- slide ... -->`).
+Mastering absolute positioning, repeatable templates, and complex data visualization.
 
+## 1. Absolute Grid Positioning (The 100x100 System)
+For total layout control, use `<grid>` with percentage-based coordinates.
+- `drag="width height"`: Area size (0-100).
+- `drop="x y"`: Position from top-left (0-100) or keywords (`top`, `bottom`, `left`, `right`, `center`).
+- `bg="color"`: Add a background color to the block.
+- `align="left|right|top|bottom"`: Content alignment inside the block.
+- `pad="20px"`: Inner padding.
+
+```html
+<grid drag="100 10" drop="top" bg="gray" align="center">
+# Header Title
+</grid>
+
+<grid drag="40 70" drop="5 20" bg="white" pad="30px">
+Left Content Box
+</grid>
+
+<grid drag="40 70" drop="55 20" bg="white" pad="30px">
+Right Content Box
+</grid>
+```
+
+## 2. Advanced Styling
 ### Element Annotations
-Must follow the targeted element immediately.
-- `class`, `style`, `color`, `align`, `drag`, `drop`, `bg`.
-- `<!-- element class="fragment" -->` reveals the element on click.
+Attach CSS classes or styles to ANY element.
+```markdown
+# Blue Title <!-- element class="text-blue" -->
+This is small <!-- element style="font-size: 0.5em;" -->
+```
 
-### Slide Annotations
-Placed at the top of the slide.
-- `bg`, `transition`, `transitionSpeed`, `template`.
-- `data-auto-animate`: Enables smooth transitions for matched elements on adjacent slides.
+### Fragment Sequences
+Control the order and behavior of fragments.
+```markdown
+1. First <!-- element class="fragment" data-fragment-index="2" -->
+2. Second <!-- element class="fragment" data-fragment-index="1" --> 
+```
+*(Result: 2 appears before 1)*
 
-## 2. Media & Design
-- **FontAwesome Icons:**
-  - **Syntax:** `:fas_rocket:`, `:fab_github:`.
-  - **HTML:** `<i class="fas fa-camera fa-2x fa-spin"></i>`.
-  - **Modifers:** `fa-xs`, `fa-lg`, `fa-2x`...`fa-7x` (sizing); `fa-rotate-90`, `fa-flip-horizontal` (rotation); `fa-spin`, `fa-pulse` (animation); `fa-pull-left`, `fa-border`.
-- **Excalidraw:** Embed live editable diagrams: `![[diagram.excalidraw]]`.
-- **Emojis:** Syntax `:smile:`, `:heart:`.
+## 3. reusable Templates
+Define complex layouts as templates in separate files (e.g., `tpl-footer.md`).
 
-## 3. Plugins & Interactivity (YAML)
-- `enableChalkboard`: Whiteboard (`B`) and Chalkboard (`C`).
-- `enableMenu`: Slide search menu (`M`).
-- `enableOverview`: Slide grid view (`ESC` / `O`).
-- `enableTimeBar`: Visual countdown bar based on `timeForPresentation` (seconds).
-- `enablePointer`: Red laser pointer on hover.
+**Template File (`tpl-footer.md`):**
+```markdown
+<% content %>
+<grid drag="100 10" drop="bottom">
+<% footer %>
+</grid>
+```
 
-## 4. Templates
-Notes in the templates folder containing `<% content %>` placeholders.
-- **Global:** `defaultTemplate: name` in frontmatter.
-- **Per Slide:** `<!-- slide template="name" -->`.
-- **Slots:** Define slots in template (`<% slot1 %>`) and use in slide:
-  ```markdown
-  %% slot1 %%
-  Content here
+**Usage in Presentation:**
+```markdown
+<!-- slide template="[[tpl-footer]]" -->
+# Main Content here...
+::: footer
+Copyright 2024
+:::
+```
+Use `<%? footer %>` (the `?`) to make a variable optional.
+
+## 4. Advanced Components
+- **FontAwesome Icons:** `:fas-rocket:`, `:fab-github:`, `:far-envelope:`.
+- **Charts:** Create interactive Chart.js visualizations.
+  ```chart
+  type: bar
+  labels: [Jan, Feb, Mar]
+  series:
+    - title: Revenue
+      data: [10, 20, 15]
   ```
+- **Excalidraw:** Embed live drawings that remain editable: `![[my-drawing.excalidraw]]`.
 
-## 5. CSS & Customization
-- **External CSS:** YAML `css: [ "path/to/local.css", "https://url.css" ]`.
-- **Vault Themes:** Place `.css` in `.obsidian/plugins/obsidian-advanced-slides/css/` and load via `theme: css/name.css`.
-- **Standard Classes:** `text-left`, `text-center`, `text-right`, `text-justify`.
-- **Fragment Classes:** `fade-in`, `fade-out`, `zoom-in`, `grow`, `shrink`, `highlight-red`.
-
-## 6. Advanced Usage Recipes
-
-### Auto-Animate Movement
-```markdown
-<!-- slide data-auto-animate -->
-### Step 1
-<grid drag="20 20" drop="topleft" bg="blue"></grid>
-
----
-
-<!-- slide data-auto-animate -->
-### Step 2
-<grid drag="20 20" drop="bottomright" bg="blue"></grid>
-```
-
-### Styled Element with Annotation
-```markdown
-# Warning Message <!-- element class="fragment zoom-in" style="color: red; font-size: 4em;" -->
-```
-
-### Multi-Slot Template Usage
-```markdown
-<!-- slide template="two-columns" -->
-%% slot-left %%
-### Pros
-+ Speed
-+ Control
-
-%% slot-right %%
-### Cons
-- Learning curve
-```
+## 5. Global Config (Advanced YAML)
+- `autoSlide: 5000`: Auto-advance slides every 5s.
+- `loop: true`: Restart presentation at the end.
+- `parallaxBackgroundImage`: Add a moving background.
+- `enableMenu: true`: Show a sidebar table of contents.
+- `enableTimeBar: true`: Show a countdown timer bar.

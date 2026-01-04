@@ -1,72 +1,70 @@
-# Level 1: Foundation – Core Architecture & Syntax
+# Level 1: Foundation – Setup & Core Syntax
 
-Advanced Slides for Obsidian uses Reveal.js. Every presentation starts with a YAML frontmatter block for global configuration.
+This guide covers the essential setup and fundamental syntax for creating presentations using the **Advanced Slides** plugin in Obsidian.
 
-## 1. YAML Configuration Reference
-| Key | Description | Values (Default) |
-| :--- | :--- | :--- |
-| `theme` | Slide theme | `black`, `white`, `league`, `beige`, `sky`, `night`, `serif`, `simple`, `solarized`, `blood`, `moon` |
-| `highlightTheme` | Code block highlighting | `monokai`, `zenburn`, `dracula`, `github`, `vscode` |
-| `transition` | Slide transition style | `none`, `fade`, `slide` (def), `convex`, `concave`, `zoom` |
-| `transitionSpeed` | Transition speed | `default`, `fast`, `slow` |
-| `bg` | Default background | Color (hex/rgb), Image URL, or `transparent` (for OBS) |
-| `width` / `height` | Resolution | `960` / `700` |
-| `margin` | Content margin | `0.04` |
-| `controls` | Nav arrows | `true` (def) / `false` |
-| `progress` | Progress bar | `true` (def) / `false` |
-| `slideNumber` | Page numbers | `true`, `false`, `c/t`, `h.v` |
-| `center` | Vertically center | `true` (def) / `false` |
-| `loop` | Loop presentation | `false` (def) / `true` |
-| `autoSlide` | Auto advance (ms) | `0` (off) |
-| `separator` | Horiz. slide regex | `^---` (surrounded by blank lines) |
-| `verticalSeparator` | Vert. slide regex | `^--` (surrounded by blank lines) |
-| `defaultTemplate` | Global template | Note name (without [[ ]]) |
-| `enableLinks` | Title backlinks | `false` (def) / `true` |
-| `notesSeparator` | Speaker notes delim | `note:` (def) |
+## 1. Initial Setup
+A slide deck is a standard Markdown file in Obsidian. It must begin with a YAML frontmatter block for configuration.
 
-## 2. Structural Syntax
-### Slide Separation
-- **Horizontal Slide:** `---` (surrounded by empty lines).
-- **Vertical Slide:** `--` (surrounded by empty lines). Vertical slides belong to the preceding horizontal slide.
+```yaml
+---
+theme: night            # Options: black, white, league, beige, sky, night, serif, simple, solarized, blood, moon
+highlightTheme: monokai # Code block style (zenburn, monokai, etc.)
+transition: slide       # none, fade, slide, convex, concave, zoom
+transitionSpeed: fast   # default, fast, slow
+controls: true          # Show navigation arrows
+progress: true          # Show progress bar
+slideNumber: true       # Show slide numbers
+---
+```
 
-### Fragments (Sequential Reveal)
-- **List Shorthand (Unordered):** Use `+` instead of `-` or `*`.
-- **List Shorthand (Ordered):** Use `1)` instead of `1.`.
-- **Manual Element Class:** Add `<!-- element class="fragment [variant]" -->` after any block.
-  - **Variants:** `fade-in`, `fade-out`, `fade-up`, `fade-down`, `fade-left`, `fade-right`, `zoom-in`, `grow`, `shrink`, `highlight-red`, `highlight-blue`, `highlight-green`.
+## 2. Slide Separation
+- **Horizontal Slide:** Use `---` surrounded by empty lines.
+- **Vertical Slide:** Use `--` surrounded by empty lines.
+- **Speaker Notes:** Use `note:` at the end of a slide. Notes are visible in the "Speaker View" (press `S` in browser).
 
-## 3. Standard Markdown & Obsidian Features
-- **Highlights:** `==text==`. **Strikethrough:** `~~text~~`.
-- **Images:** `![alt|100x100](url)` or `[[image.png|100]]`.
-- **Links:** `[label](url)` or `[[Note Name]]`.
-- **Blockquotes:** `> quote`. **Footnotes:** `[^1]` ... `[^1]: text`.
-- **LaTeX:** Inline `$x^2$` or block `$$E=mc^2$$`.
-- **Embeds:** `![[Note Name]]` injects full note content. Use `![[Note#Section]]` for precision.
-- **Videos:** Supports `![[video.mp4]]`, YouTube, and Vimeo.
-
-## 4. Preview & Rendering
-- **Open Preview:** Use the Obsidian Command Palette (`Ctrl/Cmd + P`) and search for `Advanced Slides: Open Preview` or click the slide icon in the ribbon.
-- **Navigation:** Use `Arrow Keys`, `Space`, or `PgUp/PgDown`. Press `ESC` or `O` for overview.
-
-## 5. Quick Quickstart Example
 ```markdown
----
-theme: night
-transition: slide
----
-
-# Slide 1 (Horizontal)
-A basic slide.
+# Slide 1
 
 ---
 
-# Slide 2 (Horizontal)
-This slide has bullet points appearing one by one:
-+ Point A
-+ Point B
+# Slide 2.1 (Horizontal)
+note: Remind everyone about the goals.
 
 --
 
-# Slide 2.1 (Vertical child)
-This is a vertical sub-slide.
+# Slide 2.2 (Vertical child of 2.1)
 ```
+
+## 3. Basic Markdown Enhancements
+Standard Obsidian Markdown works, but with presentation-specific optimizations:
+
+### Text Styling & Comments
+- `==highlighted==`, `~~strikethrough~~`, `**bold**`, `*italic*`.
+- `%%Comment%%`: Hidden in the presentation.
+
+### Lists (Standard)
+- Bullet points (`-`, `+`, `*`) and numbered lists (`1.`).
+
+### Images & Media
+- **Standard:** `![Alt](url)`
+- **Obsidian Internal:** `![[image.png]]`
+- **Resizing:** `![[image.png|300]]` (sets width to 300px).
+- **Video:** Use HTML for control: `<video data-autoplay src="file.mp4"></video>`.
+
+## 4. Themes & Customization
+- **Built-in Themes:** `black`, `white`, `league`, `beige`, `sky`, `night`, `serif`, `simple`, `solarized`, `blood`, `moon`, `dracula`.
+- **Custom Theme:** Place CSS in your vault and reference it: `theme: css/my-theme.css`.
+- **Global CSS:** Add a CSS array to YAML:
+  ```yaml
+  css:
+    - "styles/custom.css"
+  ```
+
+## 5. Keyboard Shortcuts (In Browser)
+After clicking "Open in Browser":
+- `F`: Fullscreen.
+- `S`: Speaker View (with notes and timer).
+- `O`: Overview Mode (grid of all slides).
+- `ESC`: Exit Overview mode.
+- `?`: Show help menu.
+- `ALT + Click`: Zoom into an element.

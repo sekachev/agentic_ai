@@ -1,67 +1,82 @@
-# Level 2: Features – Complex Layouts & Media
+# Level 2: Intermediate – Layouts & Animations
 
-Advanced Slides provides two primary systems for layout: `<grid>` (absolute/coordinate) and `<split>` (proportional/flex).
+This guide covers features that add structure, visual flow, and interactivity to your slides.
 
-## 1. Grid Component (`<grid>`)
-Highly precise 100x100 relative coordinate system.
-**Syntax:** `<grid drag="W H" drop="X Y" [attributes]> content </grid>`
+## 1. Fragments (Step-by-Step Reveals)
+Fragments allow you to reveal elements one by one.
 
-### Core Attributes
-- `drag`: Width and Height in % of slide (e.g., `50 100`).
-- `drop`: Position X and Y. Positive (from top-left) or Negative (from bottom-right).
-  - **Named Positions:** `top`, `bottom`, `left`, `right`, `topleft`, `topright`, `bottomleft`, `bottomright`, `center`.
-- `flow`: `col` (vertical stack) or `row` (horizontal stack).
-- `bg`: Background color/hex. `border`: `width style color` (e.g., `2px solid white`).
-- `align`: `left`, `right`, `center`, `justify`, `stretch` (horizontal alignment).
-- `justify-content`: `start`, `end`, `center`, `space-between`, `space-around`, `space-evenly`.
-- `pad`: CSS Padding (e.g., `20px 10px`). `rotate`: Degrees (0-360).
-- `opacity`: `0.0`-`1.0`. `filter`: CSS filters (e.g., `blur(5px)`, `grayscale()`).
-- `animate`: `type speed` (e.g., `fadeIn slow`). `frag`: Sequential reveal index.
+### Shorthand for Lists (Fastest Way)
+Use these symbols to make items appear one by one automatically:
+- **Unordered:** Use `+` instead of `-` or `*`.
+- **Ordered:** Use `1)` instead of `1.`.
 
-## 2. Split Component (`<split>`)
-Flex-based relative layout. **Syntax:** `<split [attributes]> content </split>`
+```markdown
+# My List
+- This item is always visible
++ Then this one appears
++ And finally this one
+```
 
-### Core Attributes
-- `even`: Distributes available width evenly between all children.
-- `gap`: Spacing between elements (in em).
-- `left` / `right`: Width ratios (e.g., `left="2" right="1"` makes left twice as wide).
-- `wrap`: Number of children per row before breaking (e.g., `wrap="3"`).
-- `no-margin`: Removes automatic spacing between items.
+### Manual Fragments & Classes
+Annotate any element with `<!-- element class="fragment STYLE" -->`.
+- **Styles:** `fade-in`, `fade-out`, `zoom-in`, `highlight-red`, `highlight-green`, `highlight-blue`.
 
-## 3. High-Order Components
-- **Callouts:** Standard Obsidian `> [!type]`. Types: note, info, todo, tip, success, question, warning, failure, danger, bug, example, quote.
-- **Mermaid:** Use code blocks ` ```mermaid `. Supports graphs, flowchart, sequence, gantt, pie, etc.
-- **Charts:**
-  - **JSON/YAML:** ` ```chart type: bar labels: [A,B] series: [{title: T, data: [1,2]}] ``` `
-  - **Canvas:** `<canvas data-chart="line"> <!-- JSON config --> </canvas>`
-- **Presenter Notes:** Content after `note:` at the end of a slide is visible only in Speaker View (`S`).
-- **Embedded Slides:** Embed specific pages from another deck:
-  ```slide
-  { "slide": [[Presentation]], "page": "3/6" }
-  ```
-- **External Media:** Render images from URLs or URLs to videos (mp4, webm).
+```markdown
+# Surprise! <!-- element class="fragment zoom-in" -->
+```
 
-## 4. Practical Layout Recipes
+## 2. Structural Layouts
+Advanced Slides uses `<split>` and `<grid>` tags for layout.
 
-### Side-by-Side Images (Split)
+### Split Layout (Columns)
+Divides the slide area into columns automatically.
 ```html
 <split even gap="2">
-![[img1.png]]
-![[img2.png]]
+# Left Column
+Detailed text or code here.
+
+# Right Column
+![[diagram.png]]
 </split>
 ```
+- `even`: Distributes space equally.
+- `gap`: Margin between columns (1-5).
 
-### Centered Content Box (Grid)
+### Basic Grid Layout
+Uses a 12x12 relative coordinate system.
 ```html
-<grid drag="60 40" drop="center" bg="gray" pad="20px" border="5px solid white">
-### Important Note
-This box is centered and has a border.
+<grid drag="50 100" drop="0 0">
+## Left Half
+</grid>
+<grid drag="50 100" drop="50 0">
+## Right Half
 </grid>
 ```
 
-### Bottom Summary Bar (Grid)
-```html
-<grid drag="100 10" drop="bottom" bg="rgba(0,0,0,0.5)">
-Summary: Key takeaway here.
-</grid>
+## 3. Visual Enhancements
+### Backgrounds
+Set backgrounds per slide using annotations:
+```markdown
+<!-- slide bg="red" -->
+<!-- slide bg="[[background.jpg]]" opacity="0.5" -->
+<!-- slide bg="https://picsum.photos/1000" -->
 ```
+
+### Auto-Animate (Smooth Transitions)
+Animates matching elements between adjacent slides. Use `data-auto-animate` on both slides.
+```markdown
+<!-- slide data-auto-animate -->
+# My Component
+
+---
+
+<!-- slide data-auto-animate -->
+### Smaller Now
+# My Component
+```
+
+## 4. Rich Media & Plugins
+- **Callouts:** Standard Obsidian callouts (e.g., `> [!tip]`) are rendered beautifully.
+- **Mermaid Diagrams:** Create flowcharts and diagrams directly.
+- **Math (LaTeX):** Use `$E=mc^2$` or `$$...$$` blocks.
+- **Chalkboard:** Allow drawing on slides. (Enable via YAML: `enableChalkboard: true`). Use `B` to toggle chalkboard, `C` to toggle notes canvas.
