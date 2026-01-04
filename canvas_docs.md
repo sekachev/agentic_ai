@@ -96,9 +96,13 @@ To create professional, readable, and focused presentations in Obsidian Canvas, 
 - **Websites**: Treat link/url nodes as regular slides. Give them the same dimensions (800x450) and include them in the connection flow.
 
 ### 3. Internal Mosaic (Snake Flow)
-- Within an island, use a **Snake pattern** (Right → Down → Left → Down).
-- **Chaos Shift**: Offset nodes by 20-50px from a perfect grid to give a more "organic" mosaic feel.
-- **Spacing**: Keep internal spacing at approximately **1/3 of the short side** (e.g., 150-200px between nodes).
+- Within an island, use a **Snake pattern** (Z or S flow):
+    - Slide 1 (L) → Slide 2 (R)
+    - Slide 2 (R) ↓ Slide 3 (R)
+    - Slide 3 (R) ← Slide 4 (L)
+    - Slide 4 (L) ↓ Slide 5 (L)
+- **Chaos Shift**: Offset nodes by 20-100px from a perfect grid to give an organic mosaic feel (e.g., Slide 2 is slightly lower than Slide 1).
+- **Spacing**: Keep internal horizontal spacing at ~250px and vertical at ~150-200px.
 
 ### 4. Focus & Zoom
 - Ensure that at **maximum zoom**, only one slide is visible on the screen.
@@ -115,15 +119,32 @@ To create professional, readable, and focused presentations in Obsidian Canvas, 
 - This helps the viewer quickly scan the main points before diving into details.
 - **Format**: Use a main bullet point followed by indented sub-bullets (using `\t` or spaces in JSON).
 
+### 7. Color System & Meaning
+The 6 preset colors should be used purposefully to distinguish between different types of content:
+- **"6" (Purple)**: Main titles, high-level objectives.
+- **"5" (Cyan)**: Foundations, core curriculum, logistics.
+- **"4" (Green)**: Student interactions, successful outcomes, SMM stream.
+- **"3" (Yellow)**: Personal info, bio, lecturer details.
+- **"2" (Orange)**: Transitions, split points, specialization logic.
+- **"1" (Red)**: Schedules, deadlines, intense workloads, Automation stream.
+
+### 8. Island Dimensions & Naming
+- **Island Width**: Standardize on **2150px** for islands containing two columns of slides.
+- **Node IDs**: Use semantic IDs for easier debugging:
+    - Islands: `island_1`, `island_2`, etc.
+    - Slides: `slide_title`, `slide_lecturer`, `goal_1_name`.
+    - Edges: `e1`, `e2`, `e_sch`.
+
 ### Sample Structure Example:
 ```json
 {
   "nodes": [
-    {"id": "n1", "type": "text", "x": 0, "y": 0, "width": 800, "height": 450, "text": "Slide 1"},
-    {"id": "n2", "type": "text", "x": 1000, "y": 50, "width": 800, "height": 450, "text": "Slide 2"}
+    {"id": "island_1", "type": "group", "x": -200, "y": -200, "width": 2150, "height": 2600, "label": "1. Intro"},
+    {"id": "slide_title", "type": "text", "x": 0, "y": 0, "width": 800, "height": 450, "color": "6", "text": "# Title"},
+    {"id": "slide_lecturer", "type": "text", "x": 1050, "y": 140, "width": 800, "height": 450, "color": "3", "text": "## Bio"}
   ],
   "edges": [
-    {"id": "e1", "fromNode": "n1", "fromSide": "right", "toNode": "n2", "toSide": "left"}
+    {"id": "e1", "fromNode": "slide_title", "fromSide": "right", "toNode": "slide_lecturer", "toSide": "left"}
   ]
 }
 ```
