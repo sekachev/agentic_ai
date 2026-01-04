@@ -1,0 +1,38 @@
+{
+	"nodes":[
+		{"id":"island_1","type":"group","x":-200,"y":-200,"width":2150,"height":1800,"label":"1. Великая развилка (Deterministic vs ML)"},
+		{"id":"island_2","type":"group","x":-200,"y":2000,"width":2150,"height":1800,"label":"2. Черный ящик (Что внутри LLM?)"},
+		{"id":"island_3","type":"group","x":-200,"y":4200,"width":2150,"height":1600,"label":"3. Кузница Разума (Training — Всеядность)"},
+		{"id":"island_4","type":"group","x":-200,"y":6200,"width":2150,"height":1200,"label":"4. Момент Истины (Inference)"},
+		{"id":"island_5","type":"group","x":-200,"y":7800,"width":2150,"height":800,"label":"5. Финал"},
+		{"id":"slide_1_1","type":"text","text":"# Великая развилка: Конец эпохи инструкций\n\n- **Программирование 1.0 (Детерминизм):** «Если X, то Y». Полный контроль, нулевая гибкость.\n- **Программирование 2.0 (Machine Learning):** Мы даем примеры, а модель сама находит закономерности.\n- Машина перестает быть калькулятором и становится «учеником».\n\n![](https://upload.wikimedia.org/wikipedia/commons/9/91/LampFlowchart.svg)","x":0,"y":0,"width":800,"height":450,"color":"6"},
+		{"id":"slide_1_2","type":"text","text":"# Почему нельзя запрограммировать кота?\n\n- **Задача:** Написать алгоритм распознавания кошек.\n- **Провал классики:** \n\t- Уши? (Бывают без ушей). \n\t- Хвост? (Бывают без хвоста). \n\t- Шерсть? (Сфинксы).\n- **Вердикт:** Человеческий язык и код слишком бедны, чтобы описать бесконечность реального мира.\n\n![](https://upload.wikimedia.org/wikipedia/commons/b/bb/Kittyply_edit1.jpg)","x":1050,"y":120,"width":800,"height":450,"color":"5"},
+		{"id":"slide_1_3","type":"text","text":"# Из архитекторов в садовники\n\n- **Раньше:** Мы проектировали каждую деталь системы.\n- **Теперь (ML):** Мы проектируем только «способность учиться» и готовим данные.\n- Логика модели распределена в триллионах чисел (весах), которые никто не писал руками.\n\n![](https://upload.wikimedia.org/wikipedia/commons/c/cc/US_Census_Bureau_computer_room_1980s.jpg)","x":1050,"y":720,"width":800,"height":450,"color":"5"},
+		{"id":"slide_1_4","type":"text","text":"# Код рук человеческих vs Код ИИ\n\n- **Apollo Guidance Computer (1969):** 145 тыс. строк. Каждая логическая связь была детерминирована.\n- **Tesla FSD (2024):** End-to-End нейросети. Машина «видит» и «принимает решения», основываясь на опыте миллионов водителей.\n- **Вывод:** На смену точным формулам пришла «вероятностная интуиция».\n\n![](https://upload.wikimedia.org/wikipedia/commons/d/db/Margaret_Hamilton_-_restoration.jpg)","x":0,"y":950,"width":800,"height":450,"color":"2"},
+		{"id":"slide_2_1","type":"text","text":"# ИИ — это предсказание будущего\n\n- **Пример:** «Мама мыла...» -> (раму, посуду, окно?).\n- Суть любой LLM: Какое слово (токен) будет следующим с наибольшей вероятностью?\n- Весь «разум» ChatGPT — это умение невероятно точно угадывать продолжение текста.\n\n![](https://upload.wikimedia.org/wikipedia/commons/2/23/Nokia_3310_blue.jpg)","x":0,"y":2200,"width":800,"height":450,"color":"5"},
+		{"id":"slide_2_2","type":"text","text":"# Короткий путь к прорыву\n\n- **1950:** Тест Тьюринга.\n- **1980-е:** Первые нейросети.\n- **2017:** Статья «Attention Is All You Need». Рождение архитектуры Transformer.\n\n![](https://upload.wikimedia.org/wikipedia/commons/8/8f/The-Transformer-model-architecture.png)","x":1050,"y":2320,"width":800,"height":580,"color":"5"},
+		{"id":"slide_2_4","type":"text","text":"# Геометрия смыслов\n\n- Математика превращает слова в векторы (списки чисел).\n- **Король - Мужчина + Женщина = Королева.**\n- В пространстве ИИ похожие понятия находятся физически рядом.","x":0,"y":3150,"width":800,"height":450,"color":"5"},
+		{"id":"slide_3_1","type":"text","text":"# Всеядность: Как модель «съедает» интернет\n\n- Для обучения используются терабайты текста (Common Crawl).\n- **Меню модели:** Wikipedia, Reddit, оцифрованные книги, код с GitHub, научные статьи.\n- **Проблема авторства:** Модель учится на всём, что когда-либо создал человек.","x":0,"y":4400,"width":800,"height":450,"color":"5"},
+		{"id":"slide_3_2","type":"text","text":"# Как ИИ учится сам?\n\n- Мы не объясняем модели каждое слово.\n- **Метод «Пятен»:** Мы закрываем случайное слово в предложении и заставляем модель его угадать.\n- Повторите это **триллион** раз — и модель начнет понимать логику языка.","x":1050,"y":4520,"width":800,"height":450,"color":"5"},
+		{"id":"slide_3_3","type":"text","text":"# Завод по производству знаний\n\n- Обучение — это вычислительный шторм.\n- Тысячи GPU (H100) работают месяцами.\n- **Цена вопроса:** Десятки и сотни миллионов долларов за одну модель.\n\n![](https://upload.wikimedia.org/wikipedia/commons/c/cc/US_Census_Bureau_computer_room_1980s.jpg)","x":1050,"y":5120,"width":800,"height":450,"color":"1"},
+		{"id":"slide_4_1","type":"text","text":"# Inference: Когда модель начинает «думать»\n\n- После обучения веса модели «замораживаются».\n- Промпт — это **начало координат**. Модель просто продолжает ваш текст.\n- **Inference** — это процесс вытягивания знаний из огромной замороженной матрицы.","x":0,"y":6400,"width":800,"height":450,"color":"5"},
+		{"id":"slide_4_2","type":"text","text":"# Почему ИИ всегда разный?\n\n- Модель не выбирает «правильный» ответ. Она выбирает «вероятный».\n- **Temperature:** Параметр, который разрешает модели «рисковать» (креативность vs точность).","x":1050,"y":6550,"width":800,"height":450,"color":"5"},
+		{"id":"slide_5_1","type":"text","text":"# Инструмент или Интеллект?\n\n- ИИ съел всё, что написали люди. Он — наше коллективное отражение.\n- **Вопрос для обсуждения:** Если модель предсказывает «только следующее слово», значит ли это, что она не понимает смысл? \n- Или понимание — это и есть очень точное предсказание?","x":525,"y":8000,"width":800,"height":450,"color":"6"},
+		{"id":"slide_2_3","type":"text","text":"# Как ИИ «читает» текст\n\n- Модели не видят буквы. Они видят **токены** (кусочки слов).\n- `Apple` = 1 токен. `Friendship` = 2-3 токена.\n- Словарь модели — это набор пронумерованных фрагментов.\n\n*(Представьте текст как набор цветных блоков Lego)*","x":1050,"y":3220,"width":800,"height":450,"color":"5"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"slide_1_1","fromSide":"right","toNode":"slide_1_2","toSide":"left"},
+		{"id":"e2","fromNode":"slide_1_2","fromSide":"bottom","toNode":"slide_1_3","toSide":"top"},
+		{"id":"e3","fromNode":"slide_1_3","fromSide":"left","toNode":"slide_1_4","toSide":"right"},
+		{"id":"e4","fromNode":"slide_1_4","fromSide":"bottom","toNode":"slide_2_1","toSide":"top"},
+		{"id":"e5","fromNode":"slide_2_1","fromSide":"right","toNode":"slide_2_2","toSide":"left"},
+		{"id":"e6","fromNode":"slide_2_2","fromSide":"bottom","toNode":"slide_2_3","toSide":"top"},
+		{"id":"e7","fromNode":"slide_2_3","fromSide":"left","toNode":"slide_2_4","toSide":"right"},
+		{"id":"e8","fromNode":"slide_2_4","fromSide":"bottom","toNode":"slide_3_1","toSide":"top"},
+		{"id":"e9","fromNode":"slide_3_1","fromSide":"right","toNode":"slide_3_2","toSide":"left"},
+		{"id":"e10","fromNode":"slide_3_2","fromSide":"bottom","toNode":"slide_3_3","toSide":"top"},
+		{"id":"e11","fromNode":"slide_3_3","fromSide":"bottom","toNode":"slide_4_1","toSide":"top"},
+		{"id":"e12","fromNode":"slide_4_1","fromSide":"right","toNode":"slide_4_2","toSide":"left"},
+		{"id":"e13","fromNode":"slide_4_2","fromSide":"bottom","toNode":"slide_5_1","toSide":"top"}
+	]
+}
