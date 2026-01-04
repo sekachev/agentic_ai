@@ -104,22 +104,28 @@ To create professional, readable, and focused presentations in Obsidian Canvas, 
 - **Chaos Shift**: Offset nodes by 20-100px from a perfect grid to give an organic mosaic feel (e.g., Slide 2 is slightly lower than Slide 1).
 - **Spacing**: Keep internal horizontal spacing at ~250px and vertical at ~150-200px.
 
-### 4. Focus & Zoom
-- Ensure that at **maximum zoom**, only one slide is visible on the screen.
+### 4. Image Nodes
+- **Separate Nodes**: Never embed images directly into Markdown text nodes.
+- **Node Type**: Use `file` nodes for local images or `link` nodes with a `url` for external images.
+- **Dimensions**: Standard image size: **800x450px** (same as slides).
+- **Placement**: Place images next to the corresponding text slide in the snake flow. Connect them with an edge.
+
+### 5. Focus & Zoom
+- Ensure that at **maximum zoom**, only one slide or image is visible on the screen.
 - Large gaps between islands (e.g., 1000px+) help the user focus on the current topic without distractions from neighboring blocks.
 
-### 5. Connections (Edges)
+### 6. Connections (Edges)
 - Use explicit `fromSide` and `toSide` to guide the eye:
     - **Horizontal**: `right` to `left`.
     - **Vertical**: `bottom` to `top`.
-- Always connect slides in the order they should be read.
+- Always connect slides and images in the order they should be read.
 
-### 6. Information Hierarchy
+### 7. Information Hierarchy
 - Use **hierarchical (nested) lists** to break down complex information.
 - This helps the viewer quickly scan the main points before diving into details.
 - **Format**: Use a main bullet point followed by indented sub-bullets (using `\t` or spaces in JSON).
 
-### 7. Color System & Meaning
+### 8. Color System & Meaning
 The 6 preset colors should be used purposefully to distinguish between different types of content:
 - **"6" (Purple)**: Main titles, high-level objectives.
 - **"5" (Cyan)**: Foundations, core curriculum, logistics.
