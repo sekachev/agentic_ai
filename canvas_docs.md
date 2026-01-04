@@ -83,17 +83,42 @@ The canvasColor type is used to encode color data for nodes and edges. Colors at
 Specific values for the preset colors are intentionally not defined so that applications can tailor the presets to their specific brand colors or color scheme.
 
 
-sample 
+## Guide: Presentation Layout
 
+To create professional, readable, and focused presentations in Obsidian Canvas, follow these established rules:
+
+### 1. Vertical Island Architecture
+- Organise major topics into **groups (islands)**.
+- Stack islands **vertically** (one below another). This prevents connection lines (edges) from crossing over multiple slides and maintains a clear linear flow when scrolling.
+
+### 2. Slide Standards
+- **Size**: Use a fixed ratio and size for standard text slides. Recommended: **800x450px**.
+- **Websites**: Treat link/url nodes as regular slides. Give them the same dimensions (800x450) and include them in the connection flow.
+
+### 3. Internal Mosaic (Snake Flow)
+- Within an island, use a **Snake pattern** (Right → Down → Left → Down).
+- **Chaos Shift**: Offset nodes by 20-50px from a perfect grid to give a more "organic" mosaic feel.
+- **Spacing**: Keep internal spacing at approximately **1/3 of the short side** (e.g., 150-200px between nodes).
+
+### 4. Focus & Zoom
+- Ensure that at **maximum zoom**, only one slide is visible on the screen.
+- Large gaps between islands (e.g., 1000px+) help the user focus on the current topic without distractions from neighboring blocks.
+
+### 5. Connections (Edges)
+- Use explicit `fromSide` and `toSide` to guide the eye:
+    - **Horizontal**: `right` to `left`.
+    - **Vertical**: `bottom` to `top`.
+- Always connect slides in the order they should be read.
+
+### Sample Structure Example:
+```json
 {
-	"nodes":[
-		{"id":"754a8ef995f366bc","type":"group","x":-300,"y":-460,"width":610,"height":200,"label":"JSON Canvas"},
-		{"id":"8132d4d894c80022","type":"file","file":"readme.md","x":-280,"y":-200,"width":570,"height":560,"color":"6"},
-		{"id":"7efdbbe0c4742315","type":"file","file":"_site/logo.svg","x":-280,"y":-440,"width":217,"height":80},
-		{"id":"59e896bc8da20699","type":"text","text":"Learn more:\n\n- [Apps](/docs/apps.md)\n- [Spec](spec/1.0.md)\n- [Github](https://github.com/obsidianmd/jsoncanvas)","x":40,"y":-440,"width":250,"height":160},
-		{"id":"0ba565e7f30e0652","type":"file","file":"spec/1.0.md","x":360,"y":-400,"width":400,"height":400}
-	],
-	"edges":[
-		{"id":"6fa11ab87f90b8af","fromNode":"7efdbbe0c4742315","fromSide":"right","toNode":"59e896bc8da20699","toSide":"left"}
-	]
+  "nodes": [
+    {"id": "n1", "type": "text", "x": 0, "y": 0, "width": 800, "height": 450, "text": "Slide 1"},
+    {"id": "n2", "type": "text", "x": 1000, "y": 50, "width": 800, "height": 450, "text": "Slide 2"}
+  ],
+  "edges": [
+    {"id": "e1", "fromNode": "n1", "fromSide": "right", "toNode": "n2", "toSide": "left"}
+  ]
 }
+```
