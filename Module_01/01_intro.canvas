@@ -1,93 +1,17 @@
 {
-	"nodes": [
-		{
-			"id": "intro_title",
-			"type": "text",
-			"text": "# Модуль 1: Введение\n## Урок 1: Старт\nДобро пожаловать!",
-			"x": 0,
-			"y": 0,
-			"width": 350,
-			"height": 200,
-			"color": "6"
-		},
-		{
-			"id": "intro_goals",
-			"type": "text",
-			"text": "### 🎯 Цели\n1. Понять базу.\n2. Освоить топ тулзы.\n3. Сэкономить время.",
-			"x": 450,
-			"y": 0,
-			"width": 350,
-			"height": 200,
-			"color": "4"
-		},
-		{
-			"id": "intro_structure",
-			"type": "text",
-			"text": "### 🗺️ Карта\n- Блок 1: Фундамент\n- Блок 2: Спецуха\n- Финал: MVP",
-			"x": 450,
-			"y": 300,
-			"width": 350,
-			"height": 200,
-			"color": "2"
-		},
-		{
-			"id": "intro_tools",
-			"type": "text",
-			"text": "### 🔧 Стэк\n- Obsidian\n- n8n\n- API LLM\n- VPS",
-			"x": 0,
-			"y": 300,
-			"width": 350,
-			"height": 200,
-			"color": "5"
-		},
-		{
-			"id": "intro_mindset",
-			"type": "text",
-			"text": "### 🧠 Mindset\nAI — это не волшебство, а очень быстрый и послушный стажер. Учимся им управлять.",
-			"x": 0,
-			"y": 600,
-			"width": 350,
-			"height": 200,
-			"color": "1"
-		},
-		{
-			"id": "island_1_group",
-			"type": "group",
-			"label": "Остров 1: Введение",
-			"x": -50,
-			"y": -80,
-			"width": 900,
-			"height": 950
-		}
+	"nodes":[
+		{"id":"island_1_group","type":"group","x":-100,"y":-50,"width":940,"height":890,"label":"1. Основы и логика"},
+		{"id":"intro_structure","type":"text","text":"### 🗺️ Карта\n- Блок 1: Фундамент\n- Блок 2: Спецуха\n- Финал: MVP","x":420,"y":320,"width":300,"height":200,"color":"2"},
+		{"id":"intro_tools","type":"text","text":"### 🔧 Стэк\n- Obsidian\n- n8n\n- API LLM\n- VPS","x":-40,"y":280,"width":320,"height":240,"color":"5"},
+		{"id":"intro_mindset","type":"text","text":"### 🧠 Mindset\nAI — это быстрый и послушный стажер. Учимся им управлять.","x":20,"y":600,"width":400,"height":160,"color":"1"},
+		{"id":"intro_title","type":"text","text":"# Модуль 1\n## Урок 1: Старт\nДобро пожаловать!","x":-40,"y":-20,"width":380,"height":220,"color":"6"},
+		{"id":"intro_goals","type":"text","text":"### 🎯 Цели\n1. Понять базу.\n2. Освоить топ тулзы.\n3. Сэкономить время.","x":390,"y":60,"width":360,"height":200,"color":"4"},
+		{"id":"1a5567ead4295537","x":1044,"y":840,"width":1036,"height":960,"type":"link","url":"https://google.com"}
 	],
-	"edges": [
-		{
-			"id": "e1",
-			"fromNode": "intro_title",
-			"fromSide": "right",
-			"toNode": "intro_goals",
-			"toSide": "left"
-		},
-		{
-			"id": "e2",
-			"fromNode": "intro_goals",
-			"fromSide": "bottom",
-			"toNode": "intro_structure",
-			"toSide": "top"
-		},
-		{
-			"id": "e3",
-			"fromNode": "intro_structure",
-			"fromSide": "left",
-			"toNode": "intro_tools",
-			"toSide": "right"
-		},
-		{
-			"id": "e4",
-			"fromNode": "intro_tools",
-			"fromSide": "bottom",
-			"toNode": "intro_mindset",
-			"toSide": "top"
-		}
+	"edges":[
+		{"id":"e1","fromNode":"intro_title","fromSide":"right","toNode":"intro_goals","toSide":"left"},
+		{"id":"e2","fromNode":"intro_goals","fromSide":"bottom","toNode":"intro_structure","toSide":"top"},
+		{"id":"e3","fromNode":"intro_structure","fromSide":"left","toNode":"intro_tools","toSide":"right"},
+		{"id":"e4","fromNode":"intro_tools","fromSide":"bottom","toNode":"intro_mindset","toSide":"top"}
 	]
 }
