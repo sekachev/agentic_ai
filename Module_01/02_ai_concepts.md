@@ -32,7 +32,7 @@
     *   **Теперь (ML):** Мы проектируем только «способность учиться» и готовим данные.
     *   Логика модели распределена в триллионах чисел (весах), которые никто не писал руками.
 *   **Иллюстрация:**
-    ![Old Data Center](https://upload.wikimedia.org/wikipedia/commons/5/5a/Computer_Central_System_8100_at_Helsinki_University_of_Technology.jpg)
+    ![Old Data Center](https://upload.wikimedia.org/wikipedia/commons/c/cc/US_Census_Bureau_computer_room_1980s.jpg)
 
 ### Слайд 1.4: Главный контраст: Apollo против Tesla
 *   **Заголовок:** Код рук человеческих vs Код ИИ
@@ -41,7 +41,7 @@
     *   **Tesla FSD (2024):** End-to-End нейросети. Машина «видит» и «принимает решения», основываясь на опыте миллионов водителей.
     *   **Вывод:** На смену точным формулам пришла «вероятностная интуиция».
 *   **Иллюстрация:** Маргарет Гамильтон рядом с кодом Apollo.
-    ![Margaret Hamilton](https://upload.wikimedia.org/wikipedia/commons/a/ad/Margaret_Hamilton_in_1969.jpg)
+    ![Margaret Hamilton](https://upload.wikimedia.org/wikipedia/commons/d/db/Margaret_Hamilton_-_restoration.jpg)
 
 ---
 
@@ -55,7 +55,7 @@
     *   Суть любой LLM: Какое слово (токен) будет следующим с наибольшей вероятностью?
     *   Весь «разум» ChatGPT — это умение невероятно точно угадывать продолжение текста.
 *   **Иллюстрация:**
-    ![T9 Predict](https://upload.wikimedia.org/wikipedia/commons/4/4d/T9_on_Nokia_3310.jpg)
+    ![T9 Predict](https://upload.wikimedia.org/wikipedia/commons/2/23/Nokia_3310_blue.jpg)
 
 ### Слайд 2.2: История: От Тьюринга до Трансформеров
 *   **Заголовок:** Короткий путь к прорыву
@@ -64,7 +64,7 @@
     *   **1980-е:** Первые нейросети.
     *   **2017:** Статья «Attention Is All You Need». Рождение архитектуры Transformer — фундамента современных LLM.
 *   **Иллюстрация:** Архитектура трансформатора.
-    ![Transformer](https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Transformer_architecture.png/600px-Transformer_architecture.png)
+    ![Transformer Architecture](https://upload.wikimedia.org/wikipedia/commons/8/8f/The-Transformer-model-architecture.png)
 
 ### Слайд 2.3: Токены — язык, который понимает машина
 *   **Заголовок:** Как ИИ «читает» текст
@@ -131,3 +131,15 @@
     *   **Temperature:** Параметр, который разрешает модели «рисковать» и выбирать менее вероятные слова (креативность vs точность).
     *   Вот почему на один и тот же вопрос вы получаете разные ответы.
 *   **Иллюстрация:** Столбчатая диаграмма вероятностей для следующего слова.
+
+---
+
+## Финал: Открытый вопрос
+
+### Слайд 5.1: Зеркало человечества
+*   **Заголовок:** Инструмент или Интеллект?
+*   **Текст:**
+    *   ИИ съел всё, что написали люди. Он — наше коллективное отражение.
+    *   **Вопрос для обсуждения:** Если модель предсказывает «только следующее слово», значит ли это, что она не понимает смысл? 
+    *   Или понимание — это и есть очень точное предсказание?
+*   **Иллюстрация:** Философское изображение зеркала или лабиринта.
