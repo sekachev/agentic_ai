@@ -110,6 +110,11 @@ To create professional, readable, and focused presentations in Obsidian Canvas, 
     - **Vertical**: `bottom` to `top`.
 - Always connect slides in the order they should be read.
 
+### 6. Information Hierarchy
+- Use **hierarchical (nested) lists** to break down complex information.
+- This helps the viewer quickly scan the main points before diving into details.
+- **Format**: Use a main bullet point followed by indented sub-bullets (using `\t` or spaces in JSON).
+
 ### Sample Structure Example:
 ```json
 {
