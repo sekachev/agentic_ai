@@ -1,81 +1,78 @@
-# Level 3: Advanced – Customization & Precision
+# Level 3: Advanced – Customization & Extensions
 
-This guide covers precise layout control, custom styling, and advanced configuration.
+## 1. Annotations (Targeted Styling)
+Apply attributes directly to Markdown elements (`<!-- element ... -->`) or the whole slide (`<!-- slide ... -->`).
 
-## 1. Precise Grid Positioning
-The `<grid>` tag allows absolute positioning (`drop`) and sizing (`drag`).
-- `drag="width height"`: Percentage of slide (e.g., `100 20`).
-- `drop="x y"`: Origin point (e.g., `0 10`).
-
-```html
-<grid drag="40 100" drop="0 0" bg="gray">
-Left Sidebar
-</grid>
-
-<grid drag="60 100" drop="40 0">
-Main Content Area
-</grid>
-```
-
-## 2. Styling and Classes
 ### Element Annotations
-Apply CSS classes directly to Markdown elements.
-```markdown
-# Big Red Title <!-- element class="text-red-500" -->
-```
+Must follow the targeted element immediately.
+- `class`, `style`, `color`, `align`, `drag`, `drop`, `bg`.
+- `<!-- element class="fragment" -->` reveals the element on click.
 
-### Inline CSS
-Use the `style` attribute.
-```markdown
-# Custom Style <!-- element style="color: gold; font-family: serif;" -->
-```
+### Slide Annotations
+Placed at the top of the slide.
+- `bg`, `transition`, `transitionSpeed`, `template`.
+- `data-auto-animate`: Enables smooth transitions for matched elements on adjacent slides.
 
-### Custom CSS (YAML)
-Link external CSS files or define it globally in the frontmatter.
-```yaml
----
-css:
-  - "path/to/my-style.css"
----
-```
+## 2. Media & Design
+- **FontAwesome Icons:**
+  - **Syntax:** `:fas_rocket:`, `:fab_github:`.
+  - **HTML:** `<i class="fas fa-camera fa-2x fa-spin"></i>`.
+  - **Modifers:** `fa-xs`, `fa-lg`, `fa-2x`...`fa-7x` (sizing); `fa-rotate-90`, `fa-flip-horizontal` (rotation); `fa-spin`, `fa-pulse` (animation); `fa-pull-left`, `fa-border`.
+- **Excalidraw:** Embed live editable diagrams: `![[diagram.excalidraw]]`.
+- **Emojis:** Syntax `:smile:`, `:heart:`.
 
-## 3. High-End Components
-- **FontAwesome Icons:** Use `:fab-github:` or `:fas-rocket:`.
-- **Charts.js:** Create interactive charts via code blocks.
-  ```chart
-  type: bar
-  labels: [Q1, Q2, Q3]
-  series:
-    - title: Revenue
-      data: [100, 200, 150]
+## 3. Plugins & Interactivity (YAML)
+- `enableChalkboard`: Whiteboard (`B`) and Chalkboard (`C`).
+- `enableMenu`: Slide search menu (`M`).
+- `enableOverview`: Slide grid view (`ESC` / `O`).
+- `enableTimeBar`: Visual countdown bar based on `timeForPresentation` (seconds).
+- `enablePointer`: Red laser pointer on hover.
+
+## 4. Templates
+Notes in the templates folder containing `<% content %>` placeholders.
+- **Global:** `defaultTemplate: name` in frontmatter.
+- **Per Slide:** `<!-- slide template="name" -->`.
+- **Slots:** Define slots in template (`<% slot1 %>`) and use in slide:
+  ```markdown
+  %% slot1 %%
+  Content here
   ```
-- **Excalidraw:** Embed `.excalidraw` files for hand-drawn diagrams.
 
-## 4. Slide Animations
-### Auto-Animate (Smooth Transitions)
-If you have two adjacent slides with similar elements, you can animate the transition between them by adding `data-auto-animate` to both slides.
+## 5. CSS & Customization
+- **External CSS:** YAML `css: [ "path/to/local.css", "https://url.css" ]`.
+- **Vault Themes:** Place `.css` in `.obsidian/plugins/obsidian-advanced-slides/css/` and load via `theme: css/name.css`.
+- **Standard Classes:** `text-left`, `text-center`, `text-right`, `text-justify`.
+- **Fragment Classes:** `fade-in`, `fade-out`, `zoom-in`, `grow`, `shrink`, `highlight-red`.
 
+## 6. Advanced Usage Recipes
+
+### Auto-Animate Movement
 ```markdown
 <!-- slide data-auto-animate -->
-# My Title
+### Step 1
+<grid drag="20 20" drop="topleft" bg="blue"></grid>
 
 ---
 
 <!-- slide data-auto-animate -->
-# My Title
-### Subtitle now appears
+### Step 2
+<grid drag="20 20" drop="bottomright" bg="blue"></grid>
 ```
 
-## 5. Templates
-Automate slide structures. Define a template in a separate file and reference it.
-- **Global Template:** `defaultTemplate: my-layout` in YAML.
-- **Per Slide:** `<!-- slide template="my-layout" -->`.
+### Styled Element with Annotation
+```markdown
+# Warning Message <!-- element class="fragment zoom-in" style="color: red; font-size: 4em;" -->
+```
 
-Templates use placeholders like `<% content %>`.
+### Multi-Slot Template Usage
+```markdown
+<!-- slide template="two-columns" -->
+%% slot-left %%
+### Pros
++ Speed
++ Control
 
-## 5. Advanced Plugins (YAML)
-Enable powerful revealed.js plugins:
-- `enableChalkboard`: `true` (adds drawing tools).
-- `enableMenu`: `true` (adds a slide selector).
-- `enableOverview`: `true` (allows grid view of all slides).
-- `autoSlide`: `5000` (auto-advance every 5 seconds).
+%% slot-right %%
+### Cons
+- Learning curve
+```

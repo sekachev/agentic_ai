@@ -1,33 +1,37 @@
-# LLM Presentation Guide: Obsidian Advanced Slides
+# Obsidian Advanced Slides: LLM Condensed Guide
 
-This directory contains a condensed guide for LLMs (and humans) to master presentation creation in Obsidian using the Advanced Slides plugin.
+This directory contains a high-density, three-level guide for creating professional presentations in Obsidian using the Advanced Slides plugin. Designed for LLMs (like Gemini) to parse and implement with high precision.
 
 ## 🗺️ Documentation Map
 
-### [01_foundation.md](./01_foundation.md) - Level 1
-**Purpose:** Getting started and basic structural elements.
-- **Topics:** YAML Frontmatter, Slide separators (`---`, `--`), Basic Markdown (headers, lists, images), and common themes.
-- **Use case:** Simple text-based presentations and quick slide decks.
+### [01_foundation.md](./01_foundation.md) — Core & Syntax
+- **YAML Reference:** Exhaustive list of global configuration keys (theme, transition, bg, etc).
+- **Structure:** Horizontal/Vertical slide separation logic.
+- **Sequential Reveals:** Fragments (shorthand and manual classes).
+- **Native Support:** Highlights, LaTeX, Embeds, and Video.
 
-### [02_features.md](./02_features.md) - Level 2
-**Purpose:** Enhancing visual flow and content variety.
-- **Topics:** Fragments (step-by-step animations), Speaker notes, Split layouts, Callouts, Mermaid diagrams, and Math (LaTeX).
-- **Use case:** Standard professional presentations with diagrams and step-by-step reveals.
+### [02_features.md](./02_features.md) — Layouts & Media
+- **Grid System:** Absolute positioning with `drag`, `drop`, `flow`, and visual filters.
+- **Split System:** Proportional flexbox layouts with `even`, `gap`, and `left/right` ratios.
+- **Advanced Components:** Callouts, Mermaid diagrams, Charts (YAML/Canvas), and Speaker Notes.
 
-### [03_advanced.md](./03_advanced.md) - Level 3
-**Purpose:** Total control over design and functionality.
-- **Topics:** Absolute Grid positioning, Custom CSS, Icons, Charts, Templates, and advanced plugin configuration (Chalkboard, Menu).
-- **Use case:** High-fidelity, custom-branded, or interactive slide decks requiring precise layout.
+### [03_advanced.md](./03_advanced.md) — Customization
+- **Annotations:** Targeted styling for specific elements and whole slides.
+- **Advanced Media:** Comprehensive FontAwesome guide (animation, spin, size), Excalidraw, and Emojis.
+- **Interactivity:** Chalkboard, Menus, Overview, and Timebars.
+- **Templates:** Global and per-slide template systems with variable slots.
+- **Custom CSS:** Loading external styles and vault-specific themes.
 
 ---
 
-## Where to find information?
+## Quick Reference Lookup
 
-| Information Needed | Location |
-| :--- | :--- |
-| How to start a new slide deck? | [01_foundation.md](./01_foundation.md) > Core Structure |
-| How to make a list appear one by one? | [02_features.md](./02_features.md) > Shorthand for Lists (`+` or `)`) |
-| How to show a text block after a click? | [02_features.md](./02_features.md) > Manual Fragments |
-| How to put two images side by side? | [02_features.md](./02_features.md) > Split Layout |
-| How to position a text box exactly? | [03_advanced.md](./03_advanced.md) > Precise Grid Positioning |
-| How to animate movement between slides? | [03_advanced.md](./03_advanced.md) > Auto-Animate |
+| Task | File | Section |
+| :--- | :--- | :--- |
+| Start a new deck | [01_foundation.md](./01_foundation.md) | YAML Configuration Reference |
+| Make items appear one-by-one | [01_foundation.md](./01_foundation.md) | Fragments |
+| Position a box at the bottom-right | [02_features.md](./02_features.md) | Grid Component |
+| Create a 2-column layout (2:1 ratio) | [02_features.md](./02_features.md) | Split Component |
+| Animate movement between slides | [03_advanced.md](./03_advanced.md) | Annotations (`data-auto-animate`) |
+| Add a spinning icon | [03_advanced.md](./03_advanced.md) | Media & Design (FontAwesome) |
+| Enable drawing on slides | [03_advanced.md](./03_advanced.md) | Plugins & Interactivity |

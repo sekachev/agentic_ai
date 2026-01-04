@@ -1,92 +1,67 @@
-# Level 2: Intermediate – Enhancing Your Slides
+# Level 2: Features – Complex Layouts & Media
 
-This guide covers features that add interactivity, structure, and media to your presentations.
+Advanced Slides provides two primary systems for layout: `<grid>` (absolute/coordinate) and `<split>` (proportional/flex).
 
-## 1. Fragments (Reveal one-by-one)
-Fragments allow you to reveal elements sequentially on a single slide.
+## 1. Grid Component (`<grid>`)
+Highly precise 100x100 relative coordinate system.
+**Syntax:** `<grid drag="W H" drop="X Y" [attributes]> content </grid>`
 
-### Shorthand for Lists (Fastest Way)
-Instead of standard bullets, use these symbols to make items appear one by one automatically:
-- **Unordered:** Use `+` instead of `-` or `*`.
-- **Ordered:** Use `1)` instead of `1.`.
+### Core Attributes
+- `drag`: Width and Height in % of slide (e.g., `50 100`).
+- `drop`: Position X and Y. Positive (from top-left) or Negative (from bottom-right).
+  - **Named Positions:** `top`, `bottom`, `left`, `right`, `topleft`, `topright`, `bottomleft`, `bottomright`, `center`.
+- `flow`: `col` (vertical stack) or `row` (horizontal stack).
+- `bg`: Background color/hex. `border`: `width style color` (e.g., `2px solid white`).
+- `align`: `left`, `right`, `center`, `justify`, `stretch` (horizontal alignment).
+- `justify-content`: `start`, `end`, `center`, `space-between`, `space-around`, `space-evenly`.
+- `pad`: CSS Padding (e.g., `20px 10px`). `rotate`: Degrees (0-360).
+- `opacity`: `0.0`-`1.0`. `filter`: CSS filters (e.g., `blur(5px)`, `grayscale()`).
+- `animate`: `type speed` (e.g., `fadeIn slow`). `frag`: Sequential reveal index.
 
-```markdown
-# My List
-- Permanent point
-+ First point to appear
-+ Second point to appear
+## 2. Split Component (`<split>`)
+Flex-based relative layout. **Syntax:** `<split [attributes]> content </split>`
 
-# Ordered List
-1. Always visible
-2) Step one
-3) Step two
-```
+### Core Attributes
+- `even`: Distributes available width evenly between all children.
+- `gap`: Spacing between elements (in em).
+- `left` / `right`: Width ratios (e.g., `left="2" right="1"` makes left twice as wide).
+- `wrap`: Number of children per row before breaking (e.g., `wrap="3"`).
+- `no-margin`: Removes automatic spacing between items.
 
-### Manual Fragments
-Add `<!-- element class="fragment" -->` after any block (paragraphs, images, etc.).
+## 3. High-Order Components
+- **Callouts:** Standard Obsidian `> [!type]`. Types: note, info, todo, tip, success, question, warning, failure, danger, bug, example, quote.
+- **Mermaid:** Use code blocks ` ```mermaid `. Supports graphs, flowchart, sequence, gantt, pie, etc.
+- **Charts:**
+  - **JSON/YAML:** ` ```chart type: bar labels: [A,B] series: [{title: T, data: [1,2]}] ``` `
+  - **Canvas:** `<canvas data-chart="line"> <!-- JSON config --> </canvas>`
+- **Presenter Notes:** Content after `note:` at the end of a slide is visible only in Speaker View (`S`).
+- **Embedded Slides:** Embed specific pages from another deck:
+  ```slide
+  { "slide": [[Presentation]], "page": "3/6" }
+  ```
+- **External Media:** Render images from URLs or URLs to videos (mp4, webm).
 
-```markdown
-* Point 1 <!-- element class="fragment" -->
-* Point 2 <!-- element class="fragment" -->
-```
+## 4. Practical Layout Recipes
 
-### Fragment Styles:
-- `fade-in`, `fade-out`, `fade-up`, `fade-down`, `zoom-in`, `highlight-red`, `highlight-blue`.
-
-## 2. Layouts
-Advanced Slides provides tags to structure the slide area.
-
-### Split Layout
-Splits the slide into columns.
+### Side-by-Side Images (Split)
 ```html
-<split even gap="3">
-![](image1.png)
-![](image2.png)
-![](image3.png)
+<split even gap="2">
+![[img1.png]]
+![[img2.png]]
 </split>
 ```
 
-### Basic Grid
-Provides a 12x12 coordinate system for positioning.
+### Centered Content Box (Grid)
 ```html
-<grid drag="100 50" drop="0 0">
-# Top Half
-</grid>
-<grid drag="100 50" drop="0 50">
-# Bottom Half
+<grid drag="60 40" drop="center" bg="gray" pad="20px" border="5px solid white">
+### Important Note
+This box is centered and has a border.
 </grid>
 ```
 
-## 3. Advanced Markdown Features
-- **Callouts:** Standard Obsidian callouts work in slides.
-  ```markdown
-  > [!info] Tip
-  > Use grids for complex layouts.
-  ```
-- **Mermaid Diagrams:** Fully supported.
-  ```mermaid
-  graph LR
-  A --> B
-  ```
-- **Math (KaTeX):** Use `$E=mc^2$` for inline or `$$...$$` for blocks.
-- **Presenter Notes:** Content after `note:` will only be visible in the speaker view.
-  ```markdown
-  # Slide Title
-  note: Remember to mention the sales figures.
-  ```
-
-## 4. Backgrounds
-You can set backgrounds per slide using annotations.
-
-```markdown
-<!-- slide bg="red" -->
-# Red Background
-
-<!-- slide bg="https://example.com/image.jpg" -->
-# Image Background
+### Bottom Summary Bar (Grid)
+```html
+<grid drag="100 10" drop="bottom" bg="rgba(0,0,0,0.5)">
+Summary: Key takeaway here.
+</grid>
 ```
-
-## 5. UI Customization (YAML)
-- `progress`: `true`/`false` (shows progress bar).
-- `controls`: `true`/`false` (shows navigation arrows).
-- `slideNumber`: `true`/`false` (shows page numbers).
