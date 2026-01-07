@@ -85,23 +85,19 @@ JSON (JavaScript Object Notation) — это формат обмена данн�
 ## Подзаголовок
 **жирный**
 [aistudio](aistudio.google.com)
-
+БЛОК КОДА
 ```
+
+
 
 ---
-### Что такое Markdown? 
+### Как работает API?
+стандарт openai
+https://platform.openai.com/docs/guides/text?lang=curl
++ какак выглядит запрос
++ как работает ответ
++ openrouter.ai
 
-**Основные элементы:**
-```markdown
-`#` — Заголовки (от `#` до `######`)
-`** **` или `__ __` — **Жирный текст**
-`* *` или `_ _` — *Курсив*
-`[Текст](URL)` — [Ссылка](https://google.com)
-`-` или `*` — Маркированный список
-`1.` — Нумерованный список
-`> ` — Цитата
-` ``` ` — Блок кода (например, для JSON):
-```
 
 
 ---
@@ -140,9 +136,16 @@ JSON (JavaScript Object Notation) — это формат обмена данн�
 
 ---
 ### Открытые и закрытые модели:
-https://epoch.ai	
 https://artificialanalysis.ai
+https://epoch.ai	
 
+---
+### Чем пользуются люди?
+https://openrouter.ai
+---
+### Локальные модели.
+https://hf.co/
+https://ollama.com
 
 ---
 ### Квантизация
@@ -167,27 +170,11 @@ GLM-4.7 (358B)
 https://bitnet-demo.azurewebsites.net/
 
 ---
-### Чем пользуются люди?
-https://openrouter.ai
-
-
----
-### Как работает API?
-стандарт openai
-https://platform.openai.com/docs/guides/text?lang=curl
-+ какак выглядит запрос
-+ как работает ответ
-+ openrouter.ai
-
-
-
----
 ### Промпт инжиниринг 
 + Осведомленность (google maps issue)
 	+ Unknown unknowns -> Known unknowns
 	+ Какие есть пути из А в Б
-+ Акинатор
-
++ Акинатор https://ru.akinator.com
 + Zero-shot
 + One-shot, Few-shot
 + Persona
@@ -200,18 +187,16 @@ https://www.kaggle.com/whitepaper-prompt-engineering
   
 
 ---
-### Динамический контекст инжиниринг 
-
-Skills anthtropic
-- https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills
-
-
-
----
 ### Function calling
 https://platform.openai.com/docs/guides/function-calling
 
 
+---
+
+### Динамический контекст инжиниринг 
+
+Skills anthtropic
+- https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills
 
 
 ---
