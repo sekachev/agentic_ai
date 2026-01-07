@@ -184,6 +184,13 @@ https://platform.openai.com/docs/guides/function-calling
 https://www.youtube.com/watch?v=EDb37y_MhRw
 
 
+
+---
+### Agentic AI
+
+
+
+
 ---
 ### Vending bench 
 https://andonlabs.com/evals/vending-bench-2
