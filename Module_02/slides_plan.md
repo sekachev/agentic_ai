@@ -1,4 +1,98 @@
-# План Модуля 2: LLM, API и Рождение Агентов
+#  Модуль 2: LLM, API и Агенты
+- О чем мы будем говорить и о чем не будем?
+
+- Минутка философии на нашем курсе
+
+- Как работает LLM? 
+	- ChatGPT.com -> F12
+	- Что такое JSON? `{"user": "Ivan", "roles": ["admin", "editor"], "active": true}`
+	- Что такое Markdown? `# Заголовок`, `## Подзаголовок`, `**жирный**`, `[ссылка](url)`
+
+- Как работает трансформер?
+	- Векторное представление
+	- Порядок слов
+	- Механизм внимания
+	- Feed Forward Perceptron
+	- итог - распределение вероятностей
+	- Температура (softmax)
+	- system instructions
+
+	- Grant Sanderson (https://www.youtube.com/watch?v=LPZh9BOjkQs)
+
+- Размышления модели - зачем? и как управлять?
+	<thought> ... </thought> 
+	<reasoning> ... </reasoning> 
+
+- Что нам важно знать и запомнить?
+	- Stateless (как растет бутерброд)
+	- Ограниченный контекст ()
+	- Какой тип данных принимает в контекст?
+	- Ограниченная выдача
+	- Какой тип данных может возвращать?
+	- Галлюцинации
+	- Температура
+	- Top-K (Фильтр по количеству)
+	- Top-P (Фильтр по вероятности)
+	- Token Limit
+	- structured output
+
+- Промпт инженеринг 
+
+  - Asking right questions
+  - Deep Knowledge + Vocabulary = The Ability to Direct AI.
+  - Unknown unknowns
+  - Zeros-shot
+  - Few-shot
+  - Persona
+  - https://www.kaggle.com/whitepaper-prompt-engineering
+  
+
+- Открытые и закрытые модели:
+	- EPOCH.ai
+	- artificialanalysis.ai
+
+- Чем пользуются люди?
+	- openrouter.ai
+
+- Vending bench 
+
+
+Как работает API?
+	- стандарт openai
+	- какак выглядит запрос
+	- как работает ответ
+	- openrouter.ai
+
+
+- Function calling
+	- https://platform.openai.com/docs/guides/function-calling
+- 
+
+- MCP
+	- https://modelcontextprotocol.io/docs/learn/architecture
+
+- Skills anthtropic
+	- https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills
+
+- Agentic AI
+	- https://www.youtube.com/watch?v=EDb37y_MhRw
+	- **AI Agent** = LLM + Memory + Agent Skills + Tools (MCP) + Planning.
+
+- Antigravity
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 - Что дает нам предсказание следующего токена? (20 минут)
