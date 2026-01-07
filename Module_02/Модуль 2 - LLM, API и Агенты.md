@@ -43,7 +43,11 @@ curl https://openrouter.ai/api/v1/chat/completions \
 JSON (JavaScript Object Notation) — это формат обмена данными между клиентом и сервером.	
 
 ```json
-{"user": "Ivan", "roles": ["admin", "editor"], "active": true}
+{
+"group": "AI-2026/01", 
+"students": ["Ольга", "Татьяна"],
+"active": true
+}
 ```
 
 ```
@@ -63,7 +67,8 @@ JSON (JavaScript Object Notation) — это формат обмена данн�
 {
   "model": "gpt-4o",
   "messages": [
-    {"role": "user", "content": "Как дела?"}
+	  {"role": "system", "content": "Ты кот"},
+	  {"role": "user", "content": "Скажи мяу?"}
   ],
   "temperature": 0.7
 }
@@ -126,8 +131,6 @@ JSON (JavaScript Object Notation) — это формат обмена данн�
 + Какой тип данных может возвращать?
 + Галлюцинации
 + Температура (softmax)
-+ Top-K (Фильтр по количеству)
-+ Top-P (Фильтр по вероятности)
 + Token Limit
 + structured output
 
