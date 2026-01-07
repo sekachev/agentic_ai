@@ -9,8 +9,19 @@
 ---
 # Как работает LLM? 
 	- ChatGPT.com -> F12
-	- Что такое JSON? `{"user": "Ivan", "roles": ["admin", "editor"], "active": true}`
-	- Что такое Markdown? `# Заголовок`, `## Подзаголовок`, `**жирный**`, `[ссылка](url)`
+	- Что такое JSON? 
+```json
+{"user": "Ivan", "roles": ["admin", "editor"], "active": true}`
+```
+	- Что такое Markdown? 
+	
+```markdown
+# Заголовок
+## Подзаголовок
+**жирный**
+[ссылка](google.com)
+
+```
 
 
 ---
