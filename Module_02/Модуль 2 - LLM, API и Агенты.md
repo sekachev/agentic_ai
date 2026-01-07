@@ -111,6 +111,8 @@ JSON (JavaScript Object Notation) — это формат обмена данн�
 + Механизм внимания
 + Feed Forward Perceptron
 + итог - распределение вероятностей
++ Top-K (Фильтр по количеству)
++ Top-P (Фильтр по вероятности)
 + Температура (softmax)
 + system instructions
 + Grant Sanderson (https://www.youtube.com/watch?v=LPZh9BOjkQs)
