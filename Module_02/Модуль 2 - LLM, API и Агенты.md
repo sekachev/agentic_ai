@@ -174,6 +174,7 @@ https://bitnet-demo.azurewebsites.net/
 + Осведомленность (google maps issue)
 	+ Unknown unknowns -> Known unknowns
 	+ Какие есть пути из А в Б
+	+ out of the box thinking
 + Акинатор https://ru.akinator.com
 + Zero-shot
 + One-shot, Few-shot
