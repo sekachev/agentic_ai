@@ -29,8 +29,9 @@ curl https://openrouter.ai/api/v1/chat/completions \
       "content": "Скажи привет!"
     }
   ],
+  stream: false,
   "reasoning": {
-    "enabled": true
+    "enabled": false
   }
 }'
 ```
