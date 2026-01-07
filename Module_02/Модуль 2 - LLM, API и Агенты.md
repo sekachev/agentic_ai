@@ -182,20 +182,26 @@ https://platform.openai.com/docs/guides/text?lang=curl
 
 
 ---
-### Промпт инженеринг 
+### Промпт инжиниринг 
 + Задавать правильные вопросы
 	+ Deep Knowledge + Vocabulary = The Ability to Direct AI.
 + Unknown unknowns
-+ Zeros-shot
-+ Few-shot
++ Zero-shot
++ One-shot, Few-shot
 + Persona
 
 
 ---
-### Промпт инженеринг 
+### Промпт инжиниринг 
 https://ai.google.dev/gemini-api/docs/prompting-strategies#gemini-3
 https://www.kaggle.com/whitepaper-prompt-engineering
   
+
+---
+### Динамический промпт инжиниринг 
+
+Skills anthtropic
+- https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills
 
 
 
@@ -249,7 +255,3 @@ https://antigravity.google/
 ### MCP
 - https://modelcontextprotocol.io/docs/learn/architecture
 
-
----
-### Skills anthtropic
-- https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills
