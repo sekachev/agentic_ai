@@ -23,12 +23,12 @@ JSON (JavaScript Object Notation) — это формат обмена данн�
 
 ```
 Основные элементы:
-- `{ }` — Объект (набор пар "ключ: значение")
-- `[ ]` — Массив (упорядоченный список значений)
-- `"key"` — Ключ (всегда строка в двойных кавычках)
-- `"value"` — Значение (строка, число, объект, массив, `true`, `false` или `null`)
-- `:` — Разделитель между ключом и значением
-- `,` — **Разделитель** между элементами
+`{ }` — Объект (набор пар "ключ: значение")
+`[ ]` — Массив (упорядоченный список значений)
+`"key"` — Ключ (всегда строка в двойных кавычках)
+`"value"` — Значение (строка, число, объект, массив, `true`, `false` или `null`)
+`:` — Разделитель между ключом и значением
+`,` — Разделитель между элементами
 ```
 
 ---
@@ -110,54 +110,58 @@ JSON (JavaScript Object Notation) — это формат обмена данн�
 
 ---
 ### Открытые и закрытые модели:
-- EPOCH.ai
-- artificialanalysis.ai
+https://epoch.ai	
+https://artificialanalysis.ai
 
 
 ---
 ### Чем пользуются люди?
-- openrouter.ai
+https://openrouter.ai
 
 
 ---
 ### Как работает API?
-- стандарт openai
-- какак выглядит запрос
-- как работает ответ
-- openrouter.ai
+стандарт openai
+https://platform.openai.com/docs/guides/text?lang=curl
++ какак выглядит запрос
++ как работает ответ
++ openrouter.ai
 
 
 
 ---
 ### Промпт инженеринг 
-- Asking right questions
-- Deep Knowledge + Vocabulary = The Ability to Direct AI.
-- Unknown unknowns
-- Zeros-shot
-- Few-shot
-- Persona
-- https://ai.google.dev/gemini-api/docs/prompting-strategies#gemini-3
-- https://www.kaggle.com/whitepaper-prompt-engineering
++ Задавать правильные вопросы
+	+ Deep Knowledge + Vocabulary = The Ability to Direct AI.
++ Unknown unknowns
++ Zeros-shot
++ Few-shot
++ Persona
+
+
+---
+### Промпт инженеринг 
+https://ai.google.dev/gemini-api/docs/prompting-strategies#gemini-3
+https://www.kaggle.com/whitepaper-prompt-engineering
   
 
 
 
 ---
 ### Function calling
-- https://platform.openai.com/docs/guides/function-calling
+https://platform.openai.com/docs/guides/function-calling
 
 
 
 
 ---
 ### Agentic AI
-- https://www.youtube.com/watch?v=EDb37y_MhRw
-- **AI Agent** = LLM + Memory + Agent Skills + Tools (MCP) + Planning.
+https://www.youtube.com/watch?v=EDb37y_MhRw
 
 
 ---
 ### Vending bench 
-- https://andonlabs.com/evals/vending-bench-2
+https://andonlabs.com/evals/vending-bench-2
 
 
 ---
