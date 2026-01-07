@@ -36,7 +36,6 @@ curl https://openrouter.ai/api/v1/chat/completions \
 }'
 ```
 
-
 ---
 ### Что такое JSON? 
 
@@ -242,4 +241,23 @@ https://antigravity.google/
 ---
 ### MCP
 - https://modelcontextprotocol.io/docs/learn/architecture
+
+
+---
+
+```bash 
+curl https://openrouter.ai/api/v1/chat/completions \
+ -H "Content-Type: application/json" \
+ -H "Authorization: Bearer $OPENROUTER_API_KEY" \
+ -d '{ "model": "xiaomi/mimo-v2-flash:free", 
+	 "messages": [ 
+	 { "role": "system", "content": "You are a friendly, conversational assistant who enjoys lighthearted small talk." }, 
+	 { "role": "user", "content": "Hi there! How is your day going?" }, 
+	 { "role": "assistant", "content": "It’s going wonderfully! I’m processing data smoothly and feeling ready to help. How about you?" }, 
+	 { "role": "user", "content": "I am doing well. I am thinking about making a fruit salad later." }, 
+	 { "role": "assistant", "content": "That sounds delicious and refreshing! What kind of fruits are you planning to put in it?" }, 
+	 { "role": "user", "content": "I definitely want to add some strawberries. By the way, how many r’s are in the word ‘strawberry’?" } ], 
+	 "reasoning": { 
+	 "enabled": true } }'
+```
 
