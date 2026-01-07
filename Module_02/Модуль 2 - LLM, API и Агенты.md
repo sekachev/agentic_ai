@@ -12,7 +12,28 @@
 
 ---
 ### Как работает LLM? 
-[[ChatGPT.com]]  -> F12
+[[https://openrouter.ai/]]-> F12
+
+---
+### Как работает LLM? 
+
+```bash
+curl https://openrouter.ai/api/v1/chat/completions \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer $OPENROUTER_API_KEY" \
+  -d '{
+  "model": "xiaomi/mimo-v2-flash:free",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Скажи привет!"
+    }
+  ],
+  "reasoning": {
+    "enabled": true
+  }
+}'
+```
 
 
 ---
