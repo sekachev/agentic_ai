@@ -182,7 +182,7 @@ https://platform.openai.com/docs/guides/text?lang=curl
 
 
 ---
-### Промпт инжиниринг 
+### Контекст инжиниринг 
 + Задавать правильные вопросы
 	+ Deep Knowledge + Vocabulary = The Ability to Direct AI.
 + Unknown unknowns
@@ -192,13 +192,13 @@ https://platform.openai.com/docs/guides/text?lang=curl
 
 
 ---
-### Промпт инжиниринг 
+### Контекст инжиниринг 
 https://ai.google.dev/gemini-api/docs/prompting-strategies#gemini-3
 https://www.kaggle.com/whitepaper-prompt-engineering
   
 
 ---
-### Динамический промпт инжиниринг 
+### Динамический контекст инжиниринг 
 
 Skills anthtropic
 - https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills
