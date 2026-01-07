@@ -189,7 +189,23 @@ https://www.youtube.com/watch?v=EDb37y_MhRw
 ### Agentic AI
 
 
+  ```
+  
+Prompt  ──────▶  ACTIONS
 
+
+
+		   PERCEIVE
+		 (Восприятие)
+		 ↗          ↘
+	  LEARN        DECIDE
+	(Обучение)    (Принятие решений)
+		 ↖          ↙
+		   EXECUTE
+		 (Выполнение)
+
+
+```
 
 ---
 ### Vending bench 
