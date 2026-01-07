@@ -7,15 +7,16 @@
 
 
 ---
-# Как работает LLM? 
-	- ChatGPT.com -> F12
-	- Что такое JSON? 
-```json
+### Как работает LLM? 
+- ChatGPT.com -> F12
++ Что такое JSON? 
+
++ ```json
 {"user": "Ivan", "roles": ["admin", "editor"], "active": true}`
 ```
-	- Что такое Markdown? 
++ Что такое Markdown? 
 	
-```markdown
++ ```markdown
 # Заголовок
 ## Подзаголовок
 **жирный**
@@ -25,7 +26,7 @@
 
 
 ---
-# Как работает трансформер?
+### Как работает трансформер?
 	- Векторное представление
 	- Порядок слов
 	- Механизм внимания
@@ -38,13 +39,13 @@
 
 
 ---
-# Размышления модели - зачем? и как управлять?
+### Размышления модели - зачем? и как управлять?
 	<thought> ... </thought> 
 	<reasoning> ... </reasoning> 
 
 
 ---
-# Что нам важно знать и запомнить?
+### Что нам важно знать и запомнить?
 	- Stateless (как растет бутерброд)
 	- Ограниченный контекст
 	- Какой тип данных принимает в контекст?
@@ -60,18 +61,18 @@
 
 
 ---
-# Открытые и закрытые модели:
+### Открытые и закрытые модели:
 	- EPOCH.ai
 	- artificialanalysis.ai
 
 
 ---
-# Чем пользуются люди?
+### Чем пользуются люди?
 	- openrouter.ai
 
 
 ---
-# Как работает API?
+### Как работает API?
 	- стандарт openai
 	- какак выглядит запрос
 	- как работает ответ
@@ -80,7 +81,7 @@
 
 
 ---
-# Промпт инженеринг 
+### Промпт инженеринг 
   - Asking right questions
   	- Deep Knowledge + Vocabulary = The Ability to Direct AI.
   	- Unknown unknowns
@@ -94,7 +95,7 @@
 
 
 ---
-# Function calling
+### Function calling
 	- https://platform.openai.com/docs/guides/function-calling
 
 
@@ -102,29 +103,29 @@
 
 
 ---
-# Agentic AI
+### Agentic AI
 	- https://www.youtube.com/watch?v=EDb37y_MhRw
 	- **AI Agent** = LLM + Memory + Agent Skills + Tools (MCP) + Planning.
 
 
 ---
-# Vending bench 
+### Vending bench 
 
 
 
 ---
-# Antigravity
+### Antigravity
 
 
 
 
 ---
-# MCP
+### MCP
 	- https://modelcontextprotocol.io/docs/learn/architecture
 
 
 ---
-# Skills anthtropic
+### Skills anthtropic
 	- https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills
 
 
@@ -139,21 +140,21 @@
 
 
 ---
-# Как устроен черный ящик? (40 минут)
+### Как устроен черный ящик? (40 минут)
 - 	- векторное представление + работа с векторами
 	- порядок слов (плачет наша маша горько)
 	- соседние слова (плачет наша маша)
 	- вероятностное распределние / температура / top-p, top-k 
 	- что "закодировано" в весах---
-# Как нам превратить это в ассистента? (20 минут) /системный запрос/
+### Как нам превратить это в ассистента? (20 минут) /системный запрос/
 ---
-# Что мы получим в итоге? 
+### Что мы получим в итоге? 
 	- stateless (ретроградная амнезия)
 	- ограничен контекст
 	- ограничена выдача
 	- галюцинации (когда попали а там ничего нет)
 ---
-# API 
+### API 
 	- как работает web-интерфейс LLM
 	- посмотрим на запросы модели
 	- попробуем отправить запрос напрямую
