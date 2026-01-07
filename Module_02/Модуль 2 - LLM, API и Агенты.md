@@ -182,17 +182,19 @@ https://platform.openai.com/docs/guides/text?lang=curl
 
 
 ---
-### Контекст инжиниринг 
-+ Задавать правильные вопросы
-	+ Deep Knowledge + Vocabulary = The Ability to Direct AI.
-+ Unknown unknowns
+### Промпт инжиниринг 
++ Осведомленность (google maps issue)
+	+ Unknown unknowns -> Known unknowns
+	+ Какие есть пути из А в Б
++ Акинатор
+
 + Zero-shot
 + One-shot, Few-shot
 + Persona
 
 
 ---
-### Контекст инжиниринг 
+### Промпт инжиниринг 
 https://ai.google.dev/gemini-api/docs/prompting-strategies#gemini-3
 https://www.kaggle.com/whitepaper-prompt-engineering
   
