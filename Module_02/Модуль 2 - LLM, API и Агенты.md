@@ -14,7 +14,7 @@
 ---
 ### Что такое JSON? 
 
-JSON (JavaScript Object Notation) — это формат обмена данными, который широко используется для передачи данных между клиентом и сервером.	
+JSON (JavaScript Object Notation) — это формат обмена данными между клиентом и сервером.	
 
 ```json
 {"user": "Ivan", "roles": ["admin", "editor"], "active": true}
@@ -44,20 +44,7 @@ JSON (JavaScript Object Notation) — это формат обмена данн�
 ---
 ### Что такое Markdown? 
 
-**Markdown** — это облегченный язык разметки, созданный для написания максимально читабельного и удобного для правки текста, который легко конвертируется в HTML.
-
-**Основные элементы:**
-- `#` — **Заголовки** (от `#` до `######`)
-- `** **` или `__ __` — **Жирный текст**
-- `* *` или `_ _` — *Курсив*
-- `[Текст](URL)` — [Ссылка](https://google.com)
-- `-` или `*` — Маркированный список
-- `1.` — Нумерованный список
-- `> ` — Цитата
-- ` ``` ` — Блок кода (например, для JSON):
-
----
-### Что такое Markdown? 
+**Markdown** — это облегченный язык разметки, максимально читабельный и удобный для правки текста, легко конвертируется в HTML.
 
 ```markdown
 # Заголовок
@@ -67,18 +54,32 @@ JSON (JavaScript Object Notation) — это формат обмена данн�
 
 ```
 
+---
+### Что такое Markdown? 
+
+**Основные элементы:**
+```markdown
+`#` — Заголовки (от `#` до `######`)
+`** **` или `__ __` — **Жирный текст**
+`* *` или `_ _` — *Курсив*
+`[Текст](URL)` — [Ссылка](https://google.com)
+`-` или `*` — Маркированный список
+`1.` — Нумерованный список
+`> ` — Цитата
+` ``` ` — Блок кода (например, для JSON):
+```
+
 
 ---
 ### Как работает трансформер?
-	- Векторное представление
-	- Порядок слов
-	- Механизм внимания
-	- Feed Forward Perceptron
-	- итог - распределение вероятностей
-	- Температура (softmax)
-	- system instructions
-
-	- Grant Sanderson (https://www.youtube.com/watch?v=LPZh9BOjkQs)
+- Векторное представление
++ Порядок слов
++ Механизм внимания
++ Feed Forward Perceptron
++ итог - распределение вероятностей
++ Температура (softmax)
++ system instructions
++ Grant Sanderson (https://www.youtube.com/watch?v=LPZh9BOjkQs)
 
 
 ---
@@ -89,57 +90,57 @@ JSON (JavaScript Object Notation) — это формат обмена данн�
 
 ---
 ### Что нам важно знать и запомнить?
-	- Stateless (как растет бутерброд)
-	- Ограниченный контекст
-	- Какой тип данных принимает в контекст?
-	- Ограниченная выдача
-	- Какой тип данных может возвращать?
-	- Галлюцинации
-	- Температура
-	- Top-K (Фильтр по количеству)
-	- Top-P (Фильтр по вероятности)
-	- Token Limit
-	- structured output
+- Stateless (как растет бутерброд)
++ Ограниченный контекст
++ Какой тип данных принимает в контекст?
++ Ограниченная выдача
++ Какой тип данных может возвращать?
++ Галлюцинации
++ Температура (softmax)
++ Top-K (Фильтр по количеству)
++ Top-P (Фильтр по вероятности)
++ Token Limit
++ structured output
 
 
 
 ---
 ### Открытые и закрытые модели:
-	- EPOCH.ai
-	- artificialanalysis.ai
+- EPOCH.ai
+- artificialanalysis.ai
 
 
 ---
 ### Чем пользуются люди?
-	- openrouter.ai
+- openrouter.ai
 
 
 ---
 ### Как работает API?
-	- стандарт openai
-	- какак выглядит запрос
-	- как работает ответ
-	- openrouter.ai
+- стандарт openai
+- какак выглядит запрос
+- как работает ответ
+- openrouter.ai
 
 
 
 ---
 ### Промпт инженеринг 
-  - Asking right questions
-  	- Deep Knowledge + Vocabulary = The Ability to Direct AI.
-  	- Unknown unknowns
-  - Zeros-shot
-  - Few-shot
-  - Persona
-  - https://ai.google.dev/gemini-api/docs/prompting-strategies#gemini-3
-  - https://www.kaggle.com/whitepaper-prompt-engineering
+- Asking right questions
+- Deep Knowledge + Vocabulary = The Ability to Direct AI.
+- Unknown unknowns
+- Zeros-shot
+- Few-shot
+- Persona
+- https://ai.google.dev/gemini-api/docs/prompting-strategies#gemini-3
+- https://www.kaggle.com/whitepaper-prompt-engineering
   
 
 
 
 ---
 ### Function calling
-	- https://platform.openai.com/docs/guides/function-calling
+- https://platform.openai.com/docs/guides/function-calling
 
 
 
@@ -147,29 +148,29 @@ JSON (JavaScript Object Notation) — это формат обмена данн�
 
 ---
 ### Agentic AI
-	- https://www.youtube.com/watch?v=EDb37y_MhRw
-	- **AI Agent** = LLM + Memory + Agent Skills + Tools (MCP) + Planning.
+- https://www.youtube.com/watch?v=EDb37y_MhRw
+- **AI Agent** = LLM + Memory + Agent Skills + Tools (MCP) + Planning.
 
 
 ---
 ### Vending bench 
-
+- https://andonlabs.com/evals/vending-bench-2
 
 
 ---
 ### Antigravity
-
+https://antigravity.google/
 
 
 
 ---
 ### MCP
-	- https://modelcontextprotocol.io/docs/learn/architecture
+- https://modelcontextprotocol.io/docs/learn/architecture
 
 
 ---
 ### Skills anthtropic
-	- https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills
+- https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills
 
 
 
