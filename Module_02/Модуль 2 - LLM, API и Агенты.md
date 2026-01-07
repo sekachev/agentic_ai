@@ -8,7 +8,7 @@
 
 ---
 ### Как работает LLM? 
-- ChatGPT.com -> F12
+[[ChatGPT.com]]  -> F12
 
 
 ---
