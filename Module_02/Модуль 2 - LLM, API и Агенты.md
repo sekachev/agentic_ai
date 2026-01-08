@@ -122,7 +122,7 @@ https://platform.openai.com/docs/guides/text?lang=curl
 ---
 ### Что нам важно знать и запомнить?
 - Stateless (как растет бутерброд)
-+ Ограниченный контекст https://github.com/gkamradt/LLMTest_NeedleInAHaystack/blob/main/img/GPT_4_testing.png
++ Ограниченный контекст 
 + Какой тип данных принимает в контекст?
 + Ограниченная выдача
 + Какой тип данных может возвращать?
@@ -142,7 +142,7 @@ https://epoch.ai
 ### Чем пользуются люди?
 https://openrouter.ai
 ---
-### Локальные модели.
+### Запускаем локальные LLM.
 https://hf.co/
 https://ollama.com
 
