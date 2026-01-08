@@ -106,10 +106,11 @@ https://platform.openai.com/docs/guides/text?lang=curl
 + Механизм внимания
 + Feed Forward Perceptron
 + итог - распределение вероятностей
++ Температура (softmax)
 + Top-K (Фильтр по количеству)
 + Top-P (Фильтр по вероятности)
-+ Температура (softmax)
 + system instructions
+
 + Grant Sanderson (https://www.youtube.com/watch?v=LPZh9BOjkQs)
 
 
@@ -118,6 +119,7 @@ https://platform.openai.com/docs/guides/text?lang=curl
 	<thought> ... </thought> 
 	<reasoning> ... </reasoning> 
 
+math.sekachev.ee
 
 ---
 ### Что нам важно знать и запомнить?
