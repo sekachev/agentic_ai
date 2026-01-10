@@ -9,13 +9,13 @@
 - **Business Focus**: Created by Nikolay Sekachev. Focus on ROI, business efficiency, and solving real-world corporate tasks.
 
 ## 📂 Repository Structure
-- `Module_01/`: AI Evolution & Foundations. Includes slides, `pdf/` and `transcripts/`.
-- `Module_02/`: LLM, API, and Tokenomics. Includes `transcripts/` and practical examples.
-- `Module_03/`: Sound, Voice, and Agentic Systems. 
+- `Module_01/`: AI Evolution & Foundations. Includes neural network basics, information revolutions, and slides.
+- `Module_02/`: LLM deeply. Architecture, API (OpenRouter), JSON/Markdown, Quantization, and Prompt Engineering.
+- `Module_03/`: AI Agents. Anatomy, Design Patterns (ReAct, CoT), n8n (no-code), and Professional Coding.
 - `slides_docs/`: Source documents and assets for presentations.
 - `LICENSE`: CC BY-NC-SA 4.0 License.
-- `README.md`: Main entry point with contact info and viewing instructions.
-- `Программы курсов.md`: The full curriculum.
+- `README.md`: SEO-optimized main entry point with course philosophy and viewing instructions.
+- `Программы курсов.md`: Full curriculum (Note: actual file contents may evolve faster than the program).
 
 ## 🤖 Instructions for Gemini & AI Agents
 When assisting with this project, follow these guidelines:
