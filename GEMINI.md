@@ -4,10 +4,9 @@
 
 ## 📌 Проект и философия
 Этот курс — модульная образовательная программа, созданная для вывода студентов на уровень специалистов по ИИ-автоматизации корпоративного уровня.
-- **"Fishing rod, not fish"**: The goal is to teach fundamental understanding, not just how to use specific tools.
-- **"From tools to solutions"**: We move from consuming ready-made AI tools to building custom autonomous systems via API.
-- **"Technological Transformation"**: Transitioning from a regular chatbot user to a specialist capable of designing and implementing **AI-first solutions** based on agentic systems.
-- **Business Focus**: Created by Nikolay Sekachev (Visionary of the Year), the course focuses on ROI, business efficiency, and solving real-world tasks. It treats AI as a "combine harvester" for intellectual labor.
+- **"Fishing rod, not fish"**: Models change rapidly, but principles remain. Focus on fundamental understanding of LLM logic.
+- **"Technological Transformation"**: Transitioning from a regular chatbot user to a specialist capable of designing and implementing **AI-first solutions**.
+- **Business Focus**: Created by Nikolay Sekachev. Focus on ROI, business efficiency, and solving real-world corporate tasks.
 
 ## 📂 Repository Structure
 - `Module_01/`: AI Evolution & Foundations. Includes slides, `pdf/` and `transcripts/`.
