@@ -11,7 +11,7 @@
 ## 📂 Repository Structure
 - `Module_01/`: AI Evolution & Foundations. Includes neural network basics, information revolutions, and slides.
 - `Module_02/`: LLM deeply. Architecture, API (OpenRouter), JSON/Markdown, Quantization, and Prompt Engineering.
-- `Module_03/`: AI Agents. Anatomy, Design Patterns (ReAct, CoT), n8n (no-code), and Professional Coding.
+- `Module_03/`: AI Agents. Anatomy, Design Patterns (ReAct, CoT), n8n (no-code), and Professional Coding. Now includes v2 based on the "Agentic Design Patterns" book.
 - `slides_docs/`: Source documents and assets for presentations.
 - `LICENSE`: CC BY-NC-SA 4.0 License.
 - `README.md`: SEO-optimized main entry point with course philosophy and viewing instructions.
@@ -35,12 +35,15 @@ When assisting with this project, follow these guidelines:
 - **Tokenomics**: Knowledge of Input/Output/Cache costs. "Token" as the unit of thought.
 - **Efficiency**: Quantization (4-bit, 8-bit) for running models on consumer hardware.
 - **Tool Calling**: The bridge between "Reasoning" and "Acting" via external functions.
+- **Interoperability (MCP)**: Use of Model Context Protocol for standardized access to data and tools.
 
 ### 3. Agentic Design Patterns
 - **ReAct Pattern**: `Thought -> Action -> Observation` cycle.
 - **Perceive-Reason-Act**: The core loop of any agent.
 - **Methodology**: Hierarchical planning (PRD -> Roadmap -> Todo list).
 - **Strategies**: CoT (Chain of Thought), Reflection (self-critique), Multi-agent orchestration.
+- **Collaboration (a2a)**: Agent-to-Agent communication and delegation patterns.
+- **Reliability**: Exception Handling, Human-in-the-Loop (HITL), and RAG (Knowledge Retrieval).
 
 ### 4. Format & Tooling
 - **No-Code**: Focus on **n8n** (workflows as JSON). LLMs can often generate these JSON structures.
