@@ -38,13 +38,14 @@ When assisting with this project, follow these guidelines:
 ### 3. Agentic Design Patterns
 - **ReAct Pattern**: `Thought -> Action -> Observation` cycle.
 - **Perceive-Reason-Act**: The core loop of any agent.
-- **Methodology**: Hierarchical planning (BRD -> Roadmap -> TUDU list).
+- **Methodology**: Hierarchical planning (PRD -> Roadmap -> Todo list).
 - **Strategies**: CoT (Chain of Thought), Reflection (self-critique), Multi-agent orchestration.
 
 ### 4. Format & Tooling
 - **No-Code**: Focus on **n8n** (workflows as JSON). LLMs can often generate these JSON structures.
 - **Code**: Python (PydanticAI, LangGraph) and TypeScript (Vercel AI SDK).
 - **Format**: The lecturer uses **Obsidian** with the **Advanced Slides** plugin. Slides are written in Markdown.
+- **Workflow**: Before creating a new presentation or slide, examine existing ones in the modules (e.g., `Module_03/`) to align with the lecturer's style and Advanced Slides formatting (e.g., slide separators, animation fragments).
 - **Ecosystem**: Google AI Studio, Hugging Face (Model Hub), OpenRouter (API Aggregator), VPS (hosting automation).
 
 
