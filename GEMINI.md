@@ -10,7 +10,7 @@ TETkool is a modular educational program designed to take students from AI begin
 - **Business Focus**: Created by Nikolay Sekachev (Visionary of the Year), the course focuses on ROI, business efficiency, and solving real-world tasks. It treats AI as a "combine harvester" for intellectual labor.
 
 ## 📂 Repository Structure
-- `Module_01/`: AI Evolution & Foundations. Contains slides and `transcripts/` (lecture summaries).
+- `Module_01/`: AI Evolution & Foundations. Includes intro slides, neural network basics, and information revolutions.
 - `Module_02/`: LLM, API, and Tokenomics. Includes `transcripts/` and practical examples.
 - `Module_03/`: Sound, Voice, and Agentic Systems. 
 - `slides_docs/`: Source documents and assets for presentations.
