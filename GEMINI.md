@@ -1,16 +1,16 @@
-# TETkool: AI Education Course 🚀
+# Agentic AI Course: Материалы лекций 🚀
 
-This repository contains materials for the **TETkool** AI course, covering everything from Large Language Models (LLMs) to building autonomous Agentic Systems.
+Этот репозиторий содержит материалы курса по **Agentic AI**, охватывающего все этапы от работы с LLM до построения автономных систем.
 
-## 📌 Project Overview & Philosophy
-TETkool is a modular educational program designed to take students from AI beginners to advanced automation specialists.
+## 📌 Проект и философия
+Этот курс — модульная образовательная программа, созданная для вывода студентов на уровень специалистов по ИИ-автоматизации корпоративного уровня.
 - **"Fishing rod, not fish"**: The goal is to teach fundamental understanding, not just how to use specific tools.
 - **"Building the factory, not just driving the car"**: We move from using chat interfaces (Web UI) to building automated "factories" (agentic systems) via API.
 - **"Where the puck is going"**: Inspired by Wayne Gretzky, the course focuses on anticipating the next leap (e.g., from free distribution to zero-cost creation of information).
 - **Business Focus**: Created by Nikolay Sekachev (Visionary of the Year), the course focuses on ROI, business efficiency, and solving real-world tasks. It treats AI as a "combine harvester" for intellectual labor.
 
 ## 📂 Repository Structure
-- `Module_01/`: AI Evolution & Foundations. Includes intro slides, neural network basics, and information revolutions.
+- `Module_01/`: AI Evolution & Foundations. Includes slides, `pdf/` and `transcripts/`.
 - `Module_02/`: LLM, API, and Tokenomics. Includes `transcripts/` and practical examples.
 - `Module_03/`: Sound, Voice, and Agentic Systems. 
 - `slides_docs/`: Source documents and assets for presentations.
