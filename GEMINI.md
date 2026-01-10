@@ -14,6 +14,7 @@ TETkool is a modular educational program designed to take students from AI begin
 - `Module_02/`: Working with LLMs via Web UI and API. Tokenomics, JSON, technical foundations (Transformers, Attention).
 - `Module_03/`: Sound, Voice, and Agentic Systems. ReAct pattern, Tool Calling, Planning.
 - `slides_docs/`: Source documents and assets for presentations (Markdown/CSS-based).
+- `README.md`: Main entry point and viewing instructions (Best viewed in Obsidian).
 - `Программы курсов.md`: The full curriculum and module breakdown.
 
 ## 🤖 Instructions for Gemini & AI Agents
