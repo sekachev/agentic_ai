@@ -19,6 +19,9 @@ TETkool is a modular educational program designed to take students from AI begin
 ## 🤖 Instructions for Gemini & AI Agents
 When assisting with this project, follow these guidelines:
 
+> **CRITICAL**: After making changes to any files in the repository, you MUST update this `GEMINI.md` file if the changes affect the project structure, logic, or educational materials. This file must always be up-to-date to serve as a reliable source of truth for the agent.
+
+
 ### 1. Tone and Style
 - **Educational & Strategic**: Use analogies (LLM as an engine, Agent as a car; Horse vs. Combine harvester).
 - **Visionary**: Acknowledge the exponential growth of AI (doubling every ~196 days).
@@ -41,7 +44,9 @@ When assisting with this project, follow these guidelines:
 ### 4. Format & Tooling
 - **No-Code**: Focus on **n8n** (workflows as JSON). LLMs can often generate these JSON structures.
 - **Code**: Python (PydanticAI, LangGraph) and TypeScript (Vercel AI SDK).
+- **Format**: The lecturer uses **Obsidian** with the **Advanced Slides** plugin. Slides are written in Markdown.
 - **Ecosystem**: Google AI Studio, Hugging Face (Model Hub), OpenRouter (API Aggregator), VPS (hosting automation).
+
 
 ---
 
