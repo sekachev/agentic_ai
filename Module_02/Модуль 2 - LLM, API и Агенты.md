@@ -27,7 +27,7 @@
 ```bash
 curl https://openrouter.ai/api/v1/chat/completions \
   -H "Content-Type: application/json" \
-  -H "Authorization: Bearer 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" \
+  -H "Authorization: Bearer $OPENROUTER_API_KEY" \
   -d '{
   "model": "xiaomi/mimo-v2-flash:free",
   "messages": [

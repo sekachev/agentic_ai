@@ -10,12 +10,13 @@ TETkool is a modular educational program designed to take students from AI begin
 - **Business Focus**: Created by Nikolay Sekachev (Visionary of the Year), the course focuses on ROI, business efficiency, and solving real-world tasks. It treats AI as a "combine harvester" for intellectual labor.
 
 ## 📂 Repository Structure
-- `Module_01/`: AI Evolution & Foundations. Neural networks (Perception, Weights). Historical context (Gutenberg to GenAI).
-- `Module_02/`: Working with LLMs via Web UI and API. Tokenomics, JSON, technical foundations (Transformers, Attention).
-- `Module_03/`: Sound, Voice, and Agentic Systems. ReAct pattern, Tool Calling, Planning.
-- `slides_docs/`: Source documents and assets for presentations (Markdown/CSS-based).
-- `README.md`: Main entry point and viewing instructions (Best viewed in Obsidian).
-- `Программы курсов.md`: The full curriculum and module breakdown.
+- `Module_01/`: AI Evolution & Foundations. Contains slides and `транскрипты/` (lecture summaries).
+- `Module_02/`: LLM, API, and Tokenomics. Includes `транскрипты/` and practical examples.
+- `Module_03/`: Sound, Voice, and Agentic Systems. 
+- `slides_docs/`: Source documents and assets for presentations.
+- `LICENSE`: CC BY-NC-SA 4.0 License.
+- `README.md`: Main entry point with contact info and viewing instructions.
+- `Программы курсов.md`: The full curriculum.
 
 ## 🤖 Instructions for Gemini & AI Agents
 When assisting with this project, follow these guidelines:
