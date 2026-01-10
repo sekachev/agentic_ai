@@ -31,8 +31,8 @@
 ### Проблемы "чистой" LLM
 
 + <span style="color:orange">Stateless</span>: ретроградная амнезия
-+ <span style="color:orange">Контекст</span>: ограниченный объем памяти
-+ <span style="color:orange">Генерация</span>: галлюцинации и ошибки
++ <span style="color:orange">Контекст</span>: ограниченный
++ <span style="color:orange">Генерация</span>: объем и точность
 + <span style="color:orange">Инструменты</span>: нет "рук" для действий
 + <span style="color:orange">Знания</span>: только то, на чем обучалась
 + <span style="color:orange">Планирование</span>: трудности со сложными задачами
