@@ -1,4 +1,18 @@
+# Obsidian-specific
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/last-update.json
+.obsidian/plugins/*/data.json
+.obsidian/plugins/**/node_modules/
+.obsidian/.temp/
+.obsidian/cache/
+
+# Sensitive data
+*.env
+*.key
+*.pem
+credentials*.json
+
+# OS-specific
 .DS_Store
+Thumbs.db
