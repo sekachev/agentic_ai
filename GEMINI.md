@@ -6,7 +6,7 @@
 Этот курс — модульная образовательная программа, созданная для вывода студентов на уровень специалистов по ИИ-автоматизации корпоративного уровня.
 - **"Fishing rod, not fish"**: The goal is to teach fundamental understanding, not just how to use specific tools.
 - **"From tools to solutions"**: We move from consuming ready-made AI tools to building custom autonomous systems via API.
-- **"Technological Transformation"**: Transitioning from an AI user (Web UI) to an AI architect who builds automated "factories" (agentic systems).
+- **"Technological Transformation"**: Transitioning from a regular chatbot user to a specialist capable of designing and implementing **AI-first solutions** based on agentic systems.
 - **Business Focus**: Created by Nikolay Sekachev (Visionary of the Year), the course focuses on ROI, business efficiency, and solving real-world tasks. It treats AI as a "combine harvester" for intellectual labor.
 
 ## 📂 Repository Structure
