@@ -112,7 +112,7 @@
 
 + <span style="color:orange">Слабая специализация</span>: универсальность проигрывает узким экспертам
 + <span style="color:orange">Цена ошибки</span>: риск удаления данных при работе в терминале
-+ <span style="color:orange">Человеческий контроль</span>: человек обязан всегда проверять результат
++ <span style="color:orange">Человеческий контроль</span>: human in the loop
 + <span style="color:orange">Стоимость</span>: "просмотр" больших проектов тратит много токенов
 
 ---
