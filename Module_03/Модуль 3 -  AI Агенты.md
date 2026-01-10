@@ -17,30 +17,22 @@
 
 ---
 
-## Метафора
 
-LLM — это мощный **двигатель**, но сам по себе он никуда не едет. 
-Ему нужен **автомобиль**.
-
-<split even gap="2">
-
-::: col
-### <i class="fas fa-microchip fa-3x"></i>
+<grid drop="left">
+<i class="fas fa-microchip fa-3x"></i>
 ### LLM (Engine)
-* **Just Power**
-* Reasoning & Generation
-* "Brain in a vat"
-:::
++ Just Power
++ Reasoning & Generation
++ "Brain in a vat"
+</grid>
 
-::: col
-### <i class="fas fa-car fa-3x"></i>
+<grid drop="right">
+<i class="fas fa-car fa-3x"></i>
 ### AGENT (Car)
-* **Power + Steering**
-* + Wheels (Tools)
-* + Memory & Sensors
-:::
-
-</split>
++ Power + Steering
++ Wheels (Tools)
++ Memory & Sensors
+</grid>
 
 
 ---
