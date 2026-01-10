@@ -19,23 +19,24 @@
 
 
 <grid drag="45 60" drop="2 15" align="top">
-<i class="fas fa-microchip fa-3x"></i>
+<i class="fas fa-cogs fa-3x"></i>
 <br>
 
-### LLM (ENGINE)
-+ Just Power
-+ Reasoning & Generation
-+ "Brain in a vat"
+### LLM
++ Просто мощность
++ Мышление и генерация
++ "Мозг в колбе"
 </grid>
+
 
 <grid drag="45 60" drop="53 15" align="top">
 <i class="fas fa-car fa-3x"></i>
 <br>
 
-### AGENT (CAR)
-+ Power + Steering
-+ Wheels (Tools)
-+ Memory & Sensors
+### AI AGENT
++ Мощность + Управление
++ Колеса (Инструменты)
++ Память и сенсоры
 </grid>
 
 
