@@ -170,15 +170,13 @@
 
 ---
 
-## n8n vs. Coding
-
-Что выбрать?
-
-**n8n (Lego)**: Сборка из готовых блоков.
+<grid drag="45 60" drop="2 20" align="top">
 ![Lego|400](https://brickstar.ru/images/blog/article1_legoart/starrynight1.jpg)
+</grid>
 
-**Coding (Art)**: Полная свобода и контроль.
+<grid drag="45 60" drop="53 20" align="top">
 ![Art|400](https://media.contented.ru/wp-content/uploads/2025/04/17.jpeg)
+</grid>
 
 ---
 
