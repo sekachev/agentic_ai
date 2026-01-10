@@ -5,8 +5,8 @@
 ## 📌 Проект и философия
 Этот курс — модульная образовательная программа, созданная для вывода студентов на уровень специалистов по ИИ-автоматизации корпоративного уровня.
 - **"Fishing rod, not fish"**: The goal is to teach fundamental understanding, not just how to use specific tools.
-- **"Building the factory, not just driving the car"**: We move from using chat interfaces (Web UI) to building automated "factories" (agentic systems) via API.
-- **"Where the puck is going"**: Inspired by Wayne Gretzky, the course focuses on anticipating the next leap (e.g., from free distribution to zero-cost creation of information).
+- **"From tools to solutions"**: We move from consuming ready-made AI tools to building custom autonomous systems via API.
+- **"Technological Transformation"**: Transitioning from an AI user (Web UI) to an AI architect who builds automated "factories" (agentic systems).
 - **Business Focus**: Created by Nikolay Sekachev (Visionary of the Year), the course focuses on ROI, business efficiency, and solving real-world tasks. It treats AI as a "combine harvester" for intellectual labor.
 
 ## 📂 Repository Structure
