@@ -18,17 +18,21 @@
 ---
 
 
-<grid drop="left">
+<grid drag="45 60" drop="2 15" align="top">
 <i class="fas fa-microchip fa-3x"></i>
-### LLM (Engine)
+<br>
+
+### LLM (ENGINE)
 + Just Power
 + Reasoning & Generation
 + "Brain in a vat"
 </grid>
 
-<grid drop="right">
+<grid drag="45 60" drop="53 15" align="top">
 <i class="fas fa-car fa-3x"></i>
-### AGENT (Car)
+<br>
+
+### AGENT (CAR)
 + Power + Steering
 + Wheels (Tools)
 + Memory & Sensors
@@ -39,8 +43,6 @@
 
 ## 1. Двигатель (LLM)
 
-- **Функция**: Reasoning (мышление) и генерация следующего токена.
-- **Ограничения**: 
     - Не знает актуального времени (без контекста).
     - Не имеет доступа к интернету (сама по себе).
     - Замкнута в обучающей выборке.
