@@ -80,30 +80,25 @@ Prompt  ──────▶  ACTIONS
 
 ```
 
+---
+### Эволюция ПО
+
+```
++------------+    +------------+    +------------+
+|  Software  |    |  Software  |    |  Software  |
+|    1.0     |    |    2.0     |    |    3.0     |
++------------+    +------------+    +------------+
+|            |    |            |    |            |
+|    Code    |    |  Weights   |    |  Prompts   |
+| (Explicit) |    | (Learned)  |    | (Natural)  |
+|            |    |            |    |            |
++------+-----+    +------+-----+    +------+-----+
+       |                 |                 |
+       v                 v                 v
+    Programs         Neural Net         Agents
+```
 
 ---
-
-<grid drag="45 60" drop="2 15" align="top">
-<i class="fas fa-cogs fa-3x"></i>
-<br>
-
-### LLM
-+ <span style="color:orange">Текст</span> (Крутящий момент)
-</grid>
-
-
-<grid drag="45 60" drop="53 15" align="top">
-<i class="fas fa-car fa-3x"></i>
-<br>
-
-### AI AGENT
-+ <span style="color:orange">Управление</span> (Руль)
-+ <span style="color:orange">Колеса</span> (Инструменты)
-+ <span style="color:orange">Сенсоры</span> (Восприятие)
-</grid>
-
----
-
 ### Веб-интерфейс -- "простейший агент"
 
       ___________________________________________
@@ -238,16 +233,9 @@ https://github.com/anomalyco/opencode/tree/dev/packages/opencode/src/session/pro
 ---
 
 ## Блок 3: No-code подход (n8n)
-### Быстрый старт
 
 ---
-```mermaid
-graph TD
-    Input --> Thought["Thought<br>(Что мне нужно сделать?)"]
-    Thought --> Action["Action<br>(Вызов инструмента)"]
-    Action --> Observ["Observ<br>(Результат)"]
-    Observ --> Thought
-```
+
 <grid drag="45 60" drop="2 20" align="top">
 ![Lego|400](https://brickstar.ru/images/blog/article1_legoart/starrynight1.jpg)
 </grid>
