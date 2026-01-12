@@ -12,6 +12,8 @@
 - `Module_01/`: AI Evolution & Foundations. Includes neural network basics, information revolutions, and slides.
 - `Module_02/`: LLM deeply. Architecture, API (OpenRouter), JSON/Markdown, Quantization, and Prompt Engineering.
 - `Module_03/`: AI Agents. Anatomy, Design Patterns (ReAct, CoT), n8n (no-code), and Professional Coding. Now includes v2 based on the "Agentic Design Patterns" book.
+- `Module_04/`: Real World Architecture. Frontend vs Backend in AI, Case Studies (EduSport, EVC), and MVP construction.
+- `Module_05/`: Deployment & DevOps. VPS setup, Ubuntu, Nginx, and Deployment strategies for AI agents.
 - `slides_docs/`: Source documents and assets for presentations.
 - `LICENSE`: CC BY-NC-SA 4.0 License.
 - `README.md`: SEO-optimized main entry point with course philosophy and viewing instructions.
