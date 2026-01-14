@@ -43,7 +43,7 @@
 2. В файле `.env` укажите:
    - `TELEGRAM_BOT_TOKEN`: Токен вашего бота от [@BotFather](https://t.me/BotFather).
    - `OPENROUTER_API_KEY`: Ваш API ключ от [OpenRouter](https://openrouter.ai/).
-   - `OPENROUTER_MODEL`: (Опционально) Модель, которую вы хотите использовать (например, `google/gemini-2.0-flash-exp:free`).
+   - `OPENROUTER_MODEL`: (Опционально) Модель, которую вы хотите использовать (например, `xiaomi/mimo-v2-flash:free`).
 
 3. Промпты ролей находятся в файле `roles.json`. Вы можете добавлять новые роли или изменять существующие.
 
