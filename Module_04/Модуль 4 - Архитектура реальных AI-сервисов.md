@@ -73,7 +73,7 @@ sequenceDiagram
 <split left="1" right="2" gap="2">
 <i class="fas fa-running fa-7x"></i>
 
-## edusport.neuro.ee
+## [edusport.neuro.ee](https://edusport.neuro.ee)
 </split>
 
 ---
@@ -81,7 +81,7 @@ sequenceDiagram
 <split left="1" right="2" gap="2">
 <i class="fas fa-car-side fa-7x"></i>
 
-## ruttu.ee
+## [ruttu.ee](https://ruttu.ee)
 </split>
 
 ---
@@ -89,7 +89,7 @@ sequenceDiagram
 <split left="1" right="2" gap="2">
 <i class="fas fa-microscope fa-7x"></i>
 
-## ai.evc.ee
+## [ai.evc.ee](https://ai.evc.ee)
 </split>
 
 ---
@@ -97,7 +97,7 @@ sequenceDiagram
 <split left="1" right="2" gap="2">
 <i class="fas fa-file-invoice fa-7x"></i>
 
-## dunven.neuro.ee
+## [dunven.neuro.ee](https://dunven.neuro.ee)
 </split>
 
 ---
@@ -105,7 +105,15 @@ sequenceDiagram
 <split left="1" right="2" gap="2">
 <i class="fas fa-database fa-7x"></i>
 
-## dims.neuro.ee
+## [dims.neuro.ee](https://dims.neuro.ee)
+</split>
+
+---
+
+<split left="1" right="2" gap="2">
+<i class="fas fa-bolt fa-7x"></i>
+
+## [ruttu.ai](https://ruttu.ai)
 </split>
 
 ---
@@ -113,10 +121,10 @@ sequenceDiagram
 ## Architectural Tracing
 ### Как спроектировать свой сервис?
 
-1. **Input**: Какие данные мы получаем? (Voice, Image, Text)
-2. **Reasoning**: Сколько шагов нужно ИИ? (ReAct, Planning)
-3. **Execution**: Какие инструменты вызвать? (Search, SQL, Python)
-4. **Output**: В каком виде отдать результат? (JSON, Report, Plot)
+1. **Input**: Какие данные мы получаем?
+2. **Reasoning**: Сколько шагов нужно ИИ?
+3. **Execution**: Какие инструменты вызвать?
+4. **Output**: В каком виде отдать результат?
 
 ---
 
