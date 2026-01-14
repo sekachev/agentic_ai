@@ -130,7 +130,7 @@ sequenceDiagram
 
 ## Хранение данных: Client-Side
 
-<grid drag="100 70" drop="0 25">
+<grid drag="100 70" drop="0 35">
 + <span style="color:orange">LocalStorage / SessionStorage</span>: Быстрое хранение строк (настройки, токены).
 + <span style="color:orange">IndexedDB</span>: Продвинутая БД для больших объемов (кэш, оффлайн компоненты).
 + <span style="color:orange">State Management</span>: Хранение "в моменте" (Zustand, Redux, Context API).
@@ -141,7 +141,7 @@ sequenceDiagram
 
 ## Хранение в облаке (BaaS)
 
-<grid drag="45 60" drop="2 25" align="top">
+<grid drag="45 60" drop="2 32" align="top">
 <i class="fas fa-bolt fa-3x"></i>
 <br>
 
@@ -151,7 +151,7 @@ sequenceDiagram
 + Edge Functions (TypeScript)
 </grid>
 
-<grid drag="45 60" drop="53 25" align="top">
+<grid drag="45 60" drop="53 32" align="top">
 <i class="fas fa-cloud fa-3x"></i>
 <br>
 
@@ -165,7 +165,7 @@ sequenceDiagram
 
 ## REST API & Deployment
 
-<grid drag="100 70" drop="0 25">
+<grid drag="100 70" drop="0 32">
 1. **Server-Side**: Разработка API на <span style="color:orange">FastAPI</span> (Python) или <span style="color:orange">Express</span> (Node.js).
 2. **VPS (Virtual Private Server)**: Аренда своего сервера (Ubuntu) для полного контроля.
 3. **Reverse Proxy**: Настройка <span style="color:orange">Nginx</span> для маршрутизации и SSL (HTTPS).
