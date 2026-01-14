@@ -23,24 +23,24 @@
 
 ---
 
-<grid drag="48 60" drop="2 20" align="top" bg="rgba(0,0,0,0.1)" pad="20px" border="1px solid #444">
-<i class="fas fa-desktop fa-3x" style="color:#00d4ff"></i>
+<grid drag="45 60" drop="2 15" align="top">
+<i class="fas fa-desktop fa-3x"></i>
 <br>
 
 ### FRONTEND
-+ **Интерфейс**: Chat UI, Стриминг
-+ **UX**: Обработка событий
-+ **Клиент**: Ввод данных
++ <span style="color:orange">Интерфейс</span>: Chat UI, Стриминг
++ <span style="color:orange">UX</span>: Обработка событий
++ <span style="color:orange">Клиент</span>: Ввод данных
 </grid>
 
-<grid drag="48 60" drop="50 20" align="top" bg="rgba(0,0,0,0.1)" pad="20px" border="1px solid #444">
-<i class="fas fa-server fa-3x" style="color:#00d4ff"></i>
+<grid drag="45 60" drop="53 15" align="top">
+<i class="fas fa-server fa-3x"></i>
 <br>
 
 ### BACKEND
-+ **Оркестрация**: LLM & Tools
-+ **Безопасность**: API Keys
-+ **Память**: БД & Контекст
++ <span style="color:orange">Оркестрация</span>: LLM & Tools
++ <span style="color:orange">Безопасность</span>: API Keys
++ <span style="color:orange">Память</span>: БД & Контекст
 </grid>
 
 ---
