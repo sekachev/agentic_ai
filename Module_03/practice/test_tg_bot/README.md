@@ -25,7 +25,7 @@
 
 ## Настройка
 
-1. Создайте файл `.env` на основе `.env.example`.
+1. Переименовать файл `.env.example` в `.env`.
 2. В файле `.env` укажите:
    - `TELEGRAM_BOT_TOKEN`: Токен вашего бота от [@BotFather](https://t.me/BotFather).
    - `OPENROUTER_API_KEY`: Ваш API ключ от [OpenRouter](https://openrouter.ai/).
