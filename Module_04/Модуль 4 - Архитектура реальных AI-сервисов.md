@@ -128,10 +128,57 @@ sequenceDiagram
 
 ---
 
+## Хранение данных: Client-Side
+
+<grid drag="100 70" drop="0 25">
++ <span style="color:orange">LocalStorage / SessionStorage</span>: Быстрое хранение строк (настройки, токены).
++ <span style="color:orange">IndexedDB</span>: Продвинутая БД для больших объемов (кэш, оффлайн компоненты).
++ <span style="color:orange">State Management</span>: Хранение "в моменте" (Zustand, Redux, Context API).
++ <span style="color:orange">Cookies</span>: Работа с сессиями и HTTP-only куками для безопасности.
+</grid>
+
+---
+
+## Хранение в облаке (BaaS)
+
+<grid drag="45 60" drop="2 25" align="top">
+<i class="fas fa-bolt fa-3x"></i>
+<br>
+
+### SUPABASE
++ Полноценный <span style="color:orange">PostgreSQL</span>
++ Готовая авторизация и Realtime
++ Edge Functions (TypeScript)
+</grid>
+
+<grid drag="45 60" drop="53 25" align="top">
+<i class="fas fa-cloud fa-3x"></i>
+<br>
+
+### CLOUDFLARE
++ <span style="color:orange">KV</span>: Глобальный Key-Value (low latency)
++ <span style="color:orange">D1</span>: SQL-база на Edge
++ <span style="color:orange">R2</span>: Хранение файлов (S3 compatible)
+</grid>
+
+---
+
+## REST API & Deployment
+
+<grid drag="100 70" drop="0 25">
+1. **Server-Side**: Разработка API на <span style="color:orange">FastAPI</span> (Python) или <span style="color:orange">Express</span> (Node.js).
+2. **VPS (Virtual Private Server)**: Аренда своего сервера (Ubuntu) для полного контроля.
+3. **Reverse Proxy**: Настройка <span style="color:orange">Nginx</span> для маршрутизации и SSL (HTTPS).
+4. **DevOps**: Использование Docker и CI/CD для автоматизации деплоя.
+</grid>
+
+---
+
 ## Итоги модуля
 
 + **Separation of Concerns**: Фронт для людей, Бэк для безопасности.
 + **Data-First**: Архитектура строится вокруг потоков данных.
++ **Persistence**: Правильный выбор между клиентским хранением и облачными БД.
 + **Agentic Patterns**: Реальный сервис — это всегда агентная логика.
 
 ---
