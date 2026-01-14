@@ -128,24 +128,27 @@ sequenceDiagram
 
 ---
 
+<grid drag="100 20" drop="0 10">
 ## Хранение данных: Client-Side
+</grid>
 
 <grid drag="100 70" drop="0 35">
 + <span style="color:orange">LocalStorage / SessionStorage</span>: Быстрое хранение строк (настройки, токены).
-+ <span style="color:orange">OPFS</span>: 
-</grid>
++ <span style="color:orange">OPFS</span>: Origin Private File System — быстрая файловая БД в браузере.
+
 
 ---
 
+<grid drag="100 20" drop="0 10">
 ## Хранение в облаке (BaaS)
+</grid>
 
 <grid drag="45 60" drop="2 32" align="top">
 <i class="fas fa-bolt fa-3x"></i>
 <br>
 
 ### SUPABASE
-+ Полноценный <span style="color:orange">PostgreSQL</span>
-+ Готовая авторизация и Realtime
++ Полноценный <span style="color:orange">PostgreSQL</span> база данных
 </grid>
 
 <grid drag="45 60" drop="53 32" align="top">
@@ -153,19 +156,22 @@ sequenceDiagram
 <br>
 
 ### CLOUDFLARE
-+ <span style="color:orange">KV</span>: Глобальный Key-Value (low latency)
-+ <span style="color:orange">D1</span>: SQL-база - R2
-+ <span style="color:orange">R2</span>: Хранение файлов (S3 compatible)
++ <span style="color:orange">D1</span>: SQL-база
++ <span style="color:orange">R2</span>: Объектное хранилище
 </grid>
 
 ---
 
+<grid drag="100 20" drop="0 10">
 ## REST API & Deployment
+</grid>
 
 <grid drag="100 70" drop="0 32">
 1. **Server-Side**: Разработка API на <span style="color:orange">FastAPI</span> (Python) или <span style="color:orange">Express</span> (Node.js).
 2. **VPS (Virtual Private Server)**: Аренда своего сервера (Ubuntu) для полного контроля.
 3. **Reverse Proxy**: Настройка <span style="color:orange">Nginx</span> для маршрутизации и SSL (HTTPS).
+4. **DevOps**: Контейнеризация и автоматизация деплоя.
+</grid>
 
 
 ---
