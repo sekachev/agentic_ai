@@ -10,9 +10,10 @@
    cd agentic_ai/Module_03/practice/test_tg_bot
    ```
 
-2. **Установите зависимости:**
+2. **Установите зависимости и создайте файл настроек:**
    ```bash
    npm install
+   cp .env.example .env
    ```
 
 ## Требования
@@ -38,7 +39,7 @@
 
 ## Настройка
 
-1. Переименовать файл `.env.example` в `.env`.
+1. Откройте файл `.env`.
 2. В файле `.env` укажите:
    - `TELEGRAM_BOT_TOKEN`: Токен вашего бота от [@BotFather](https://t.me/BotFather).
    - `OPENROUTER_API_KEY`: Ваш API ключ от [OpenRouter](https://openrouter.ai/).
