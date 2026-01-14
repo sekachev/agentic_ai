@@ -45,18 +45,23 @@
 
 ---
 
-## Архитектурный поток
+<grid drag="100 80" drop="0 20" style="zoom: 1.8;">
+```mermaid
+sequenceDiagram
+    autonumber
+    participant U as USER
+    participant F as FRONTEND
+    participant B as BACKEND
+    participant L as LLM / TOOLS
 
+    U->>F: Message
+    F->>B: API Request
+    B->>L: Prompt
+    L-->>B: Response
+    B-->>F: Stream
+    F-->>U: Display
 ```
-      USER             FRONTEND             BACKEND              LLM / TOOLS
-        |                 |                    |                      |
-        |--- Message ---->|                    |                      |
-        |                 |--- API Request --->|                      |
-        |                 | (Hidden Keys)      |---- Prompt/Context ->|
-        |                 |                    |                      |
-        |                 |<-- Token Stream ---|<--- Raw Response ----|
-        |<-- Display -----|                    |                      |
-```
+</grid>
 
 ---
 
