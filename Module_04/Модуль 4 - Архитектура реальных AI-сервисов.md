@@ -71,56 +71,41 @@ sequenceDiagram
 ---
 
 <split left="1" right="2" gap="2">
-<i class="fas fa-running fa-5x"></i>
+<i class="fas fa-running fa-7x"></i>
 
-### edusport.neuro.ee
-**Спортивные тренировки**
-+ **Задача**: Умная запись. 
-+ **AI-Агент**: Обрабатывает запросы на естественном языке и интегрируется с календарями.
+## edusport.neuro.ee
 </split>
 
 ---
 
 <split left="1" right="2" gap="2">
-<i class="fas fa-car-side fa-5x"></i>
+<i class="fas fa-car-side fa-7x"></i>
 
-### ruttu.ee
-**Умный дневник поездок**
-+ **Задача**: Автозаполнение отчетности.
-+ **AI-Агент**: Превращает GPS-данные в осмысленные отчеты для бухгалтерии.
+## ruttu.ee
 </split>
 
 ---
 
 <split left="1" right="2" gap="2">
-<i class="fas fa-microscope fa-5x"></i>
+<i class="fas fa-microscope fa-7x"></i>
 
-### ai.evc.ee
-**Vision для медицины**
-+ **Задача**: Анализ фото вен.
-+ **AI-Агент**: Мультимодальный анализ изображений + сопоставление с базой знаний.
+## ai.evc.ee
 </split>
 
 ---
 
 <split left="1" right="2" gap="2">
-<i class="fas fa-file-invoice fa-5x"></i>
+<i class="fas fa-file-invoice fa-7x"></i>
 
-### dunven.neuro.ee
-**OCR & Structured Data**
-+ **Задача**: JPG в Excel.
-+ **AI-Агент**: Извлекает таблицы и данные с гарантированной структурой через JSON mode.
+## dunven.neuro.ee
 </split>
 
 ---
 
 <split left="1" right="2" gap="2">
-<i class="fas fa-database fa-5x"></i>
+<i class="fas fa-database fa-7x"></i>
 
-### dims.neuro.ee
-**Data Enrichment**
-+ **Задача**: Разметка БД.
-+ **AI-Агент**: Пакетная обработка тысяч строк для категоризации и поиска инсайтов.
+## dims.neuro.ee
 </split>
 
 ---
@@ -152,5 +137,5 @@ sequenceDiagram
 ---
 
 ## Ресурсы
-- Портал: [neuro.ee](https://neuro.ee)
+
 - Репозиторий: [github.com/sekachev/agentic_ai](https://github.com/sekachev/agentic_ai)
