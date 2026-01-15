@@ -142,8 +142,21 @@ sequenceDiagram
 
 <grid drag="100 70" drop="0 35">
 + <span style="color:orange">LocalStorage / SessionStorage</span>: Быстрое хранение строк (настройки, токены).
++ <span style="color:orange">Cookies</span>: Данные для обмена с сервером (авторизация, сессии).
 + <span style="color:orange">OPFS</span>: Origin Private File System — быстрая файловая БД в браузере.
+</grid>
 
+---
+
+<grid drag="100 20" drop="0 10">
+## Airtable: База-таблица
+</grid>
+
+<grid drag="100 70" drop="0 35">
++ <span style="color:orange">No-Code Friendly</span>: Идеально для первых MVP и ручного управления данными.
++ <span style="color:orange">API</span>: Легкая интеграция с n8n, Python или JS.
++ <span style="color:orange">Visual Interface</span>: Удобно менять данные человеку без знания SQL.
+</grid>
 
 ---
 
@@ -156,7 +169,7 @@ sequenceDiagram
 <br>
 
 ### SUPABASE
-+ Полноценный <span style="color:orange">PostgreSQL</span> база данных
++ Полноценная <span style="color:orange">PostgreSQL</span> база данных
 </grid>
 
 <grid drag="45 60" drop="53 32" align="top">
