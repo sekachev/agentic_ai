@@ -1,0 +1,73 @@
+{
+    "IT": [
+        {
+            "name": "Frontend Development",
+            "description": "Learn HTML, CSS, React and modern web development practices.",
+            "duration": "4 months",
+            "price": "1200 EUR",
+            "start_date": "2026-02-01"
+        },
+        {
+            "name": "Python for Backend",
+            "description": "Master Python, Django, and database design.",
+            "duration": "5 months",
+            "price": "1500 EUR",
+            "start_date": "2026-02-10"
+        },
+        {
+            "name": "Generative AI Agents",
+            "description": "Build intelligent agents using LLMs and modern frameworks.",
+            "duration": "3 months",
+            "price": "1800 EUR",
+            "start_date": "2026-03-01"
+        }
+    ],
+    "Culinary": [
+        {
+            "name": "Professional Chef Course",
+            "description": "A comprehensive guide to international cuisine and kitchen management.",
+            "duration": "12 months",
+            "price": "4500 EUR",
+            "start_date": "2026-01-25"
+        },
+        {
+            "name": "Pastry Arts",
+            "description": "Techniques for baking, desserts, and chocolate work.",
+            "duration": "6 months",
+            "price": "2200 EUR",
+            "start_date": "2026-02-15"
+        }
+    ],
+    "Languages": [
+        {
+            "name": "English Intensive",
+            "description": "From B1 to C1 in record time.",
+            "duration": "3 months",
+            "price": "600 EUR",
+            "start_date": "2026-01-20"
+        },
+        {
+            "name": "Business Estonian",
+            "description": "Estonian language for professionals working in Estonia.",
+            "duration": "4 months",
+            "price": "800 EUR",
+            "start_date": "2026-02-05"
+        }
+    ],
+    "Business": [
+        {
+            "name": "Startup Fundamentals",
+            "description": "Validate your idea, build an MVP, and pitch to investors.",
+            "duration": "2 months",
+            "price": "1000 EUR",
+            "start_date": "2026-01-30"
+        },
+        {
+            "name": "AI for Business Leaders",
+            "description": "Leveraging AI to optimize operations and strategy.",
+            "duration": "1 month",
+            "price": "1500 EUR",
+            "start_date": "2026-02-20"
+        }
+    ]
+}
