@@ -168,20 +168,6 @@ Cockpit Navigator
 
 ---
 
-<grid drag="100 80" drop="0 20" style="zoom: 1.8;">
-```mermaid
-graph LR
-    A[CLIENT] -->|HTTP Request| B[FRONTEND]
-    B -->|API Call| C[FastAPI]
-    C -->|LLM Call| D[OpenRouter]
-    D -->|Response| C
-    C -->|JSON| B
-    B -->|Display| A
-```
-</grid>
-
----
-
 <split left="1" right="2" gap="2">
 <i class="fas fa-utensils fa-7x"></i>
 
