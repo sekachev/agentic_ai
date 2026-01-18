@@ -95,7 +95,6 @@ sequenceDiagram
 
 ## Nginx как швейцар
 
-**Один вход — много дверей**
 + `mysite.com` → Frontend
 + `mysite.com/api` → Backend
 + Автоматический SSL
