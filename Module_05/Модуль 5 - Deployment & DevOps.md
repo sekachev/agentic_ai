@@ -195,11 +195,7 @@ graph LR
 
 ---
 
-<grid drag="100 20" drop="0 10">
-## Swagger UI: Встроенная документация
-</grid>
 
-<grid drag="100 70" drop="0 35" style="zoom: 1.3;">
 ```python
 from fastapi import FastAPI
 
@@ -215,10 +211,7 @@ def chat(user_message: str):
     return {"response": f"Вы сказали: {user_message}"}
 ```
 
-🌐 Запустите: `uvicorn main:app --reload`
 
-📖 Откройте: `http://localhost:8000/docs`
-</grid>
 
 ---
 
