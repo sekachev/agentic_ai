@@ -47,7 +47,7 @@
 - `Module_02/`: **Глубокое погружение в LLM**. Архитектура Transformer, работа с API (OpenRouter), JSON/Markdown форматирование, Tokenomics и Prompt Engineering.
 - `Module_03/`: **AI Агенты**. Анатомия агента, паттерны проектирования (ReAct, CoT, Planning, Reflection), n8n (no-code) и разработка (Python/TypeScript).
 - `Module_04/`: **Архитектура реальных AI-сервисов**. Разделение Frontend/Backend, хранение данных (Cookies, LocalStorage, Supabase, Airtable), проектирование MVP и основы деплоя.
-- `Module_05/`: **Deployment & DevOps**. Настройка VPS, Ubuntu, Nginx и стратегии деплоя AI агентов.
+- `Module_05/`: **Deployment & DevOps**. Ubuntu Terminal, настройка сетей (IP/DNS), Nginx Reverse Proxy, деплой Frontend (Cockpit) и запуск Backend (FastAPI + Systemd).
 - `slides_docs/`: Исходные документы и шаблоны для подготовки материалов.
 - `Программы курсов.md`: Полный учебный план и содержание модулей.
 
