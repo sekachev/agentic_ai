@@ -13,7 +13,7 @@
 - `Module_02/`: LLM deeply. Architecture, API (OpenRouter), JSON/Markdown, Quantization, and Prompt Engineering.
 - `Module_03/`: AI Agents. Anatomy, Design Patterns (ReAct, CoT), n8n (no-code), and Professional Coding. Now includes v2 based on the "Agentic Design Patterns" book.
 - `Module_04/`: Real World Architecture. Frontend vs Backend, Data Storage (Client vs Cloud, Cookies, Airtable), MVP construction, and Deployment basics. Includes homework and GitHub setup guide.
-- `Module_05/`: Deployment & DevOps. VPS setup, Ubuntu, Nginx, and Deployment strategies for AI agents.
+- `Module_05/`: Deployment & DevOps. Structured learning path: Ubuntu Terminal basics → Networking fundamentals (IP, DNS, Nginx reverse proxy, SSL) → Frontend deployment via Cockpit → Complete FastAPI tutorial (theory + hands-on coding + Systemd service configuration). Emphasizes practical deployment workflows for AI-generated applications with real code examples. Includes presentation "Модуль 5 - Deployment & DevOps.md" with links to detailed materials.
 - `slides_docs/`: Source documents and assets for presentations.
 - `LICENSE`: CC BY-NC-SA 4.0 License.
 - `README.md`: SEO-optimized main entry point with course philosophy and viewing instructions.
