@@ -11,7 +11,7 @@ check TG chat
 
 ## 📍 Base URLs
 - **Public API:** `http://api.qix.ee`
-- **Internal:** `http://192.168.1.12:8000`
+
 
 ---
 
