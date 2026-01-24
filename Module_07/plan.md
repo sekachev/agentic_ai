@@ -9,6 +9,13 @@ Audio-to-audio модели
 - gemini 
 - 
 
+Провайдеры
+- 11labs
+- Deepgram
+- Google
+- 
+
+
 Приложения
 
 	 Транскрибация
