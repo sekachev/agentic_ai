@@ -20,7 +20,7 @@
 	- 11labs
 	- Deepgram
 	- Google
-	- 
+	- Qwen (open-source)
 
 Музыка
 	Suno
