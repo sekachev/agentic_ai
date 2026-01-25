@@ -7,14 +7,13 @@
 
 		
 	Генерация
+	- edge TTS
 	
-	
+
 	Audio-to-audio модели
 	- gemini 
 	- 
-	
-	
-	
+			
 	
 	Провайдеры
 	- 11labs

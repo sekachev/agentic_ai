@@ -1,0 +1,1 @@
+edge-tts -v ru-RU-SvetlanaNeural -t "Привет! Это я, твой друг" --write-media test.mp3
