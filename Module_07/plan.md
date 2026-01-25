@@ -12,7 +12,9 @@
 
 	Audio-to-audio модели
 	- gemini 
-	- 
+
+	Дуплексная связь
+	- https://research.nvidia.com/labs/adlr/personaplex/
 			
 	
 	Провайдеры
