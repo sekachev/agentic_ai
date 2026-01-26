@@ -1,6 +1,6 @@
 import mlx_whisper
 
-speech_file = "download.wav"
+speech_file = "test.mp3"
 
 result = mlx_whisper.transcribe(
     speech_file,
