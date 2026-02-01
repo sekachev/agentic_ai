@@ -25,7 +25,7 @@ Meta предоставляет инструмент Graph API Explorer для �
 
 ### Шаг 4. Узнаем ID через запрос
 В строке запроса в Explorer (там, где написано `me?fields=id,name`) введи следующее:
-`me/accounts?fields=name,id,instagram_business_account`
+`me/accounts?fields=name,iMd,instagram_business_account`
 
 Нажми Submit. В ответе ты увидишь:
 1. `id` — это твой **Facebook Page ID**.

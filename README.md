@@ -48,8 +48,13 @@
 - `Module_03/`: **AI Агенты**. Анатомия агента, паттерны проектирования (ReAct, CoT, Planning, Reflection), n8n (no-code) и разработка (Python/TypeScript).
 - `Module_04/`: **Архитектура реальных AI-сервисов**. Разделение Frontend/Backend, хранение данных (Cookies, LocalStorage, Supabase, Airtable), проектирование MVP и основы деплоя.
 - `Module_05/`: **Deployment & DevOps**. Ubuntu Terminal, настройка сетей (IP/DNS), Nginx Reverse Proxy, деплой Frontend (Cockpit) и запуск Backend (FastAPI + Systemd).
+- `Module_06/`: **Визуальный ИИ (Vision & OCR)**. Vision LLMs, теория генерации (CLIP, VAE, Diffusion), инструменты (Midjourney, FLUX, Nano Banana), LoRA и Character Consistency.
+- `Module_07/`: **Мультимодальность: Звук и Голос**. Распознавание речи (Whisper), синтез речи (11Labs, Deepgram), Audio-to-Audio (Gemini Live), телефония и ассистенты (Vapi, Twilio).
+- `Module_08_ba/`: **Базы данных и SQL**. Реляционные базы данных, проектирование схем, миграция данных, AI + SQL (агент вместо программиста), MCP (Model Context Protocol).
+- `Module_08_smm/`: **Специализация для SMM**. Работа с API социальных сетей, интеграция с AI-агентами.
+- `Module_09_ba/`: **Специализация для Business Automation**. Автоматизация бизнес-процессов, безопасность, создание документов.
 - `slides_docs/`: Исходные документы и шаблоны для подготовки материалов.
-- `Программы курсов.md`: Полный учебный план и содержание модулей.
+- `SCHEDULE.md`: Расписание занятий группы tetkool-al-2026-01.
 
 > [!NOTE]
 > В каждом модуле созданы подпапки для конспектов и исходных медиа-файлов. Все презентации доступны в формате Markdown для просмотра через Obsidian Advanced Slides.
