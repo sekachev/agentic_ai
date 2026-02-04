@@ -10,3 +10,4 @@ qwen layers
 ------ 
 
 Клавдия
+![[Pasted image 20260204081427.png]]
