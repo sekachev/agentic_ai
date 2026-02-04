@@ -6,6 +6,7 @@ vertasium - лидер научпоп youtube
 text-to-video
 js
 soundtrack
+https://codepen.io/
 ffmpeg - швейцарский нож
 remotion - монтаж 
 qwen layers 
