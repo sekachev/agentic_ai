@@ -5,6 +5,7 @@ vertasium - лидер научпоп youtube
 первый-последний кадр
 text-to-video
 js
+soundtrack
 ffmpeg - швейцарский нож
 remotion - монтаж 
 qwen layers 
