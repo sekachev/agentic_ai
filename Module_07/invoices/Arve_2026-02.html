@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Arve 2026-02</title>
+    <style>
+        body { font-family: 'Inter', sans-serif; padding: 40px; color: #1f2937; }
+        .invoice-card { max-width: 800px; margin: 0 auto; border: 1px solid #e5e7eb; padding: 60px; border-radius: 12px; }
+        .header { display: flex; justify-content: space-between; margin-bottom: 60px; }
+        .details-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-bottom: 50px; }
+        .table { width: 100%; border-collapse: collapse; margin-bottom: 40px; }
+        .table th { text-align: left; padding: 12px; border-bottom: 2px solid #000; }
+        .table td { padding: 20px 12px; border-bottom: 1px solid #e5e7eb; }
+        .total { text-align: right; font-weight: bold; font-size: 1.2em; }
+        .payment { margin-top: 60px; font-size: 0.9em; color: #6b7280; }
+    </style>
+</head>
+<body>
+    <div class="invoice-card">
+        <div class="header">
+            <div><h1>ULVI SPV OÜ</h1><p>Reg nr: 14072204</p></div>
+            <div style="text-align: right;"><h2>ARVE</h2><p>Nr: 2026-02</p><p>Kuupäev: 23.02.2026</p></div>
+        </div>
+        <div class="details-grid">
+            <div><strong>Maksja:</strong><br>GP Training Center OÜ<br>Reg nr: 16809287<br>Vabaduse väljak 2, 10146 Tallinn</div>
+            <div><strong>Saaja:</strong><br>ULVI SPV OÜ<br>Sõle tn 7-25, 68218 Tallinn</div>
+        </div>
+        <table class="table">
+            <thead><tr><th>Kirjeldus</th><th>Summa</th></tr></thead>
+            <tbody><tr><td>Tehisintellekti tööriistade baaskoolitus (Veebruar 2026)</td><td>1450.00€</td></tr></tbody>
+        </table>
+        <div class="total">TASUDA: 1450.00€</div>
+        <div class="payment">
+            <p>IBAN: EE767700771002040452</p>
+            <p>Pank: LHV Pank</p>
+            <p>Selgitus: Arve 2026-02, Koolitusteenus</p>
+        </div>
+    </div>
+</body>
+</html>
