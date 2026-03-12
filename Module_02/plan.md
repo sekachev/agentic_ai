@@ -9,7 +9,8 @@ https://platform.openai.com/tokenizer
 
 
 
-Temperature
+Temperature llm.sekachev.ee
+
 
 
 Как сделать chat
@@ -18,12 +19,12 @@ Temperature
 Reasoning
 
 
-API
+API - stateless
 
+Бутерброд
 
 Web интерфейс
 
-llm.sekachev.ee
 
 
 
