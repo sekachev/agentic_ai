@@ -4,7 +4,7 @@
 ---
 
 <grid drag="100 100" drop="center">
-![[module_4_cover.png]]
+![[images/module_4_cover.png]]
 </grid>
 
 ---
