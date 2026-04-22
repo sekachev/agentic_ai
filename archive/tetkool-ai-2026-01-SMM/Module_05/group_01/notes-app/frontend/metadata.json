@@ -1,0 +1,5 @@
+{
+  "name": "NoteFlow MVP",
+  "description": "A streamlined, professional note-taking application built with React and Tailwind. Features full CRUD operations with a modern dual-pane interface and AI-powered summarization.",
+  "requestFramePermissions": []
+}

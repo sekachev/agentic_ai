@@ -1,0 +1,119 @@
+ИИ Автоматизация бизнес-процессов 
+
+ИИ Генерация контента и СММ 
+
+Quite challenging topic, some ar it guys, some are lawyers
+
+
+Как выглядят революции?
+
+What you see on the picture
+
+Same time in uzbekistan
+
+
+
+Every major technological revolution has been preceded by a revolution in how information is shared.
+Peter Drucker, educator, “father of management”
+
+
+Информационные революции
+
+Информационные революции
+
+Человек завоевал мир
+
+
+Земледелие, города
+Государство
+
+Армия
+
+Право
+
+
+Наука
+Информация широко доступна
+
+Техническая революция
+
+Форд Т
+Информация передается мгновенно
+
+Глобализация
+
+
+ИИ
+Информация создается почти бесплатно
+
+
+?
+
+Скорость
+
+Информационные революции - временная шкала
+4B
+100K
+~5K
+~500
+~70
+   ~5
+
+Информационные революции - временная шкала
+
+
+
+By 2009, computers will begin to control cars with human oversight, and fully autonomous vehicles will start appearing.
+Raymond Kurzweil, Google visioner
+1999
+
+Cinema progress 1896-2009
+
+Прогресс в генерации видео 2023-2025
+
+
+Где мы сейчас?
+
+
+Turing test instructions
+
+LLM IQ?
+
+
+The most important thinking machines will not be those that can think faster and better than humans, but those that learn to think in ways that humans never could
+Kevin Kelly, The Inevitable (2016)
+
+Последствия революций
+
+Революции и экономика (время для удвоения ВВП)
+~350 000 yrs 
+~1 000 yrs
+~100 yrs
+~20 yrs
+?
+
+McKinsey Global Institute
+
+AI will eliminate many jobs, but also create new ones. Some jobs like customer service representatives, drivers, and factory workers may be largely replaced by AI systems and robots..
+
+Bill Gates, Microsoft
+
+McKinsey Global Institute
+
+Key takeaways
+Мы находимся на раннем этапе «Большого взрыва» ИИ. 
+ИИ будет повсюду, подобно электричеству.
+Бизнес ждут радикальные изменения благодаря резкому росту продуктивности.
+Каждая выжившая компания станет ИИ-компанией.
+Кратный количественный и качественный рост производительности
+LLM (языковые модели) всегда доступны, чтобы обучать и направлять вас.
+Кодинг — это новая грамотность.
+Язык программирования — это ваш родной язык.
+
+Домашнее задание
+
+Задание
+Изучить aistudio.google.com
+Попробовать все доступные модальности
+Создать/клонировать полезное веб-приложение 
+Прислать ссылку https://t.me/sekachev

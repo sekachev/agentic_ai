@@ -1,1 +1,0 @@
-python3.11 go_tr.py
