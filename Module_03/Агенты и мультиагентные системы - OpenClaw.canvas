@@ -1,0 +1,23 @@
+{
+  "nodes": [
+    {
+      "id": "module-03-title",
+      "type": "text",
+      "text": "# Module 03\n\n## Агенты и мультиагентные системы: OpenClaw",
+      "x": 0,
+      "y": 0,
+      "width": 720,
+      "height": 220
+    },
+    {
+      "id": "module-03-outline",
+      "type": "text",
+      "text": "## План презентации\n\n- Что такое агент\n- Оркестрация и роли\n- OpenClaw на практике\n- Где это применимо",
+      "x": 780,
+      "y": 0,
+      "width": 560,
+      "height": 260
+    }
+  ],
+  "edges": []
+}

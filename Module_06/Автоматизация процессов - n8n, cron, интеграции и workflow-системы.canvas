@@ -1,0 +1,23 @@
+{
+  "nodes": [
+    {
+      "id": "module-06-title",
+      "type": "text",
+      "text": "# Module 06\n\n## Автоматизация процессов: n8n, cron, интеграции и workflow-системы",
+      "x": 0,
+      "y": 0,
+      "width": 760,
+      "height": 240
+    },
+    {
+      "id": "module-06-outline",
+      "type": "text",
+      "text": "## План презентации\n\n- Сценарии автоматизации\n- n8n и workflow\n- Cron и расписания\n- Интеграции между системами",
+      "x": 820,
+      "y": 0,
+      "width": 560,
+      "height": 260
+    }
+  ],
+  "edges": []
+}

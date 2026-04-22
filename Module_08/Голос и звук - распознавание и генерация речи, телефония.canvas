@@ -1,0 +1,23 @@
+{
+  "nodes": [
+    {
+      "id": "module-08-title",
+      "type": "text",
+      "text": "# Module 08\n\n## Голос и звук: распознавание и генерация речи, телефония",
+      "x": 0,
+      "y": 0,
+      "width": 760,
+      "height": 220
+    },
+    {
+      "id": "module-08-outline",
+      "type": "text",
+      "text": "## План презентации\n\n- Speech-to-Text\n- Text-to-Speech\n- Телефония и voice agents\n- Реальные кейсы",
+      "x": 820,
+      "y": 0,
+      "width": 560,
+      "height": 260
+    }
+  ],
+  "edges": []
+}
