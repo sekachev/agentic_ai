@@ -1,207 +1,31 @@
 {
-  "nodes": [
-    {
-      "id": "open-lesson-title",
-      "type": "text",
-      "text": "# Открытый урок\n\n## Обзор программы курса Business Automation\n\nМаршрут обучения от основ AI до финальной защиты проектов.",
-      "x": 0,
-      "y": -360,
-      "width": 980,
-      "height": 220
-    },
-    {
-      "id": "module-01",
-      "type": "text",
-      "text": "# Module 01\n\n## Введение в AI и современные инструменты\n\n- Что происходит на рынке AI\n- Какие инструменты нужны на старте\n- Какой путь проходит студент на курсе",
-      "x": 0,
-      "y": 0,
-      "width": 500,
-      "height": 320
-    },
-    {
-      "id": "module-02",
-      "type": "text",
-      "text": "# Module 02\n\n## LLM: принципы работы, токены, возможности и ограничения\n\n- Как модель думает о тексте\n- Что такое токены и стоимость\n- Где у LLM сильные и слабые стороны",
-      "x": 620,
-      "y": 260,
-      "width": 560,
-      "height": 340
-    },
-    {
-      "id": "module-03",
-      "type": "text",
-      "text": "# Module 03\n\n## Агенты и мультиагентные системы: OpenClaw\n\n- Что такое агент\n- Роли, orchestration, handoff\n- Как строятся агентные цепочки",
-      "x": 660,
-      "y": 680,
-      "width": 540,
-      "height": 300
-    },
-    {
-      "id": "module-04",
-      "type": "text",
-      "text": "# Module 04\n\n## Облачная инфраструктура: VPS, сервер, домены и деплой\n\n- Где всё живёт\n- Как публиковать решения\n- Что нужно для рабочего продакшна",
-      "x": 1280,
-      "y": 980,
-      "width": 560,
-      "height": 320
-    },
-    {
-      "id": "module-05",
-      "type": "text",
-      "text": "# Module 05\n\n## Разработка веб-приложений с помощью AI\n\n- Интерфейсы и формы\n- Frontend + backend\n- AI-assisted workflow разработки",
-      "x": 1320,
-      "y": 1380,
-      "width": 540,
-      "height": 300
-    },
-    {
-      "id": "module-06",
-      "type": "text",
-      "text": "# Module 06\n\n## Автоматизация процессов: n8n, cron, интеграции и workflow-системы\n\n- Автоматизация рутины\n- Триггеры и расписания\n- Интеграции между сервисами",
-      "x": 1940,
-      "y": 1680,
-      "width": 580,
-      "height": 340
-    },
-    {
-      "id": "module-07",
-      "type": "text",
-      "text": "# Module 07\n\n## Обработка и хранение информации агентами: базы данных, память, контекст\n\n- Базы данных\n- Память и контекст\n- Как агент работает с накопленным знанием",
-      "x": 1980,
-      "y": 2100,
-      "width": 600,
-      "height": 340
-    },
-    {
-      "id": "module-08",
-      "type": "text",
-      "text": "# Module 08\n\n## Голос и звук: распознавание и генерация речи, телефония\n\n- STT и TTS\n- Голосовые интерфейсы\n- Телефония и voice agents",
-      "x": 2600,
-      "y": 2400,
-      "width": 560,
-      "height": 320
-    },
-    {
-      "id": "module-09",
-      "type": "text",
-      "text": "# Module 09\n\n## Распознавание и генерация изображений и видео\n\n- Vision и OCR\n- Image generation\n- Video workflow и production",
-      "x": 2640,
-      "y": 2800,
-      "width": 560,
-      "height": 300
-    },
-    {
-      "id": "module-10",
-      "type": "text",
-      "text": "# Module 10\n\n## Агентные системы в реальном мире: трансформация бизнеса, команд и продуктов\n\n- Как меняются бизнес-процессы\n- Как меняются команды\n- Как меняются продукты",
-      "x": 3260,
-      "y": 3100,
-      "width": 620,
-      "height": 340
-    },
-    {
-      "id": "module-11",
-      "type": "text",
-      "text": "# Module 11\n\n## Финальная сборка проектов студентов: архитектура, разбор и подготовка к защите\n\n- Архитектура решения\n- Разбор слабых мест\n- Подготовка к защите",
-      "x": 3300,
-      "y": 3520,
-      "width": 640,
-      "height": 340
-    },
-    {
-      "id": "module-12",
-      "type": "text",
-      "text": "# Module 12\n\n## Защита проектов\n\n- Демонстрация решений\n- Обратная связь\n- Финальная фиксация результата",
-      "x": 3920,
-      "y": 3820,
-      "width": 540,
-      "height": 280
-    }
-  ],
-  "edges": [
-    {
-      "id": "edge-title-01",
-      "fromNode": "open-lesson-title",
-      "fromSide": "bottom",
-      "toNode": "module-01",
-      "toSide": "top"
-    },
-    {
-      "id": "edge-01-02",
-      "fromNode": "module-01",
-      "fromSide": "right",
-      "toNode": "module-02",
-      "toSide": "top"
-    },
-    {
-      "id": "edge-02-03",
-      "fromNode": "module-02",
-      "fromSide": "bottom",
-      "toNode": "module-03",
-      "toSide": "top"
-    },
-    {
-      "id": "edge-03-04",
-      "fromNode": "module-03",
-      "fromSide": "bottom",
-      "toNode": "module-04",
-      "toSide": "top"
-    },
-    {
-      "id": "edge-04-05",
-      "fromNode": "module-04",
-      "fromSide": "bottom",
-      "toNode": "module-05",
-      "toSide": "top"
-    },
-    {
-      "id": "edge-05-06",
-      "fromNode": "module-05",
-      "fromSide": "right",
-      "toNode": "module-06",
-      "toSide": "top"
-    },
-    {
-      "id": "edge-06-07",
-      "fromNode": "module-06",
-      "fromSide": "bottom",
-      "toNode": "module-07",
-      "toSide": "top"
-    },
-    {
-      "id": "edge-07-08",
-      "fromNode": "module-07",
-      "fromSide": "right",
-      "toNode": "module-08",
-      "toSide": "top"
-    },
-    {
-      "id": "edge-08-09",
-      "fromNode": "module-08",
-      "fromSide": "bottom",
-      "toNode": "module-09",
-      "toSide": "top"
-    },
-    {
-      "id": "edge-09-10",
-      "fromNode": "module-09",
-      "fromSide": "right",
-      "toNode": "module-10",
-      "toSide": "top"
-    },
-    {
-      "id": "edge-10-11",
-      "fromNode": "module-10",
-      "fromSide": "bottom",
-      "toNode": "module-11",
-      "toSide": "top"
-    },
-    {
-      "id": "edge-11-12",
-      "fromNode": "module-11",
-      "fromSide": "right",
-      "toNode": "module-12",
-      "toSide": "top"
-    }
-  ]
+	"nodes":[
+		{"id":"open-lesson-title","type":"text","text":"# Открытый урок\n\n## Обзор программы курса Business Automation\n\nМаршрут обучения от основ AI до финальной защиты проектов.","x":0,"y":-360,"width":980,"height":220},
+		{"id":"module-01","type":"text","text":"# Module 01\n\n## Введение в AI и современные инструменты\n\n- Что происходит на рынке AI\n- Какие инструменты нужны на старте\n- Какой путь проходит студент на курсе","x":0,"y":0,"width":500,"height":320},
+		{"id":"module-04","type":"text","text":"# Module 04\n\n## Облачная инфраструктура: VPS, сервер, домены и деплой\n\n- Где всё живёт\n- Как публиковать решения\n- Что нужно для рабочего продакшна","x":1280,"y":980,"width":560,"height":320},
+		{"id":"module-05","type":"text","text":"# Module 05\n\n## Разработка веб-приложений с помощью AI\n\n- Интерфейсы и формы\n- Frontend + backend\n- AI-assisted workflow разработки","x":1320,"y":1380,"width":540,"height":300},
+		{"id":"module-06","type":"text","text":"# Module 06\n\n## Автоматизация процессов: n8n, cron, интеграции и workflow-системы\n\n- Автоматизация рутины\n- Триггеры и расписания\n- Интеграции между сервисами","x":1940,"y":1680,"width":580,"height":340},
+		{"id":"module-07","type":"text","text":"# Module 07\n\n## Обработка и хранение информации агентами: базы данных, память, контекст\n\n- Базы данных\n- Память и контекст\n- Как агент работает с накопленным знанием","x":1980,"y":2100,"width":600,"height":340},
+		{"id":"module-08","type":"text","text":"# Module 08\n\n## Голос и звук: распознавание и генерация речи, телефония\n\n- STT и TTS\n- Голосовые интерфейсы\n- Телефония и voice agents","x":2600,"y":2400,"width":560,"height":320},
+		{"id":"module-09","type":"text","text":"# Module 09\n\n## Распознавание и генерация изображений и видео\n\n- Vision и OCR\n- Image generation\n- Video workflow и production","x":2640,"y":2800,"width":560,"height":300},
+		{"id":"module-10","type":"text","text":"# Module 10\n\n## Агентные системы в реальном мире: трансформация бизнеса, команд и продуктов\n\n- Как меняются бизнес-процессы\n- Как меняются команды\n- Как меняются продукты","x":3260,"y":3100,"width":620,"height":340},
+		{"id":"module-11","type":"text","text":"# Module 11\n\n## Финальная сборка проектов студентов: архитектура, разбор и подготовка к защите\n\n- Архитектура решения\n- Разбор слабых мест\n- Подготовка к защите","x":3300,"y":3520,"width":640,"height":340},
+		{"id":"module-12","type":"text","text":"# Module 12\n\n## Защита проектов\n\n- Демонстрация решений\n- Обратная связь\n- Финальная фиксация результата","x":3920,"y":3820,"width":540,"height":280},
+		{"id":"module-02","type":"text","text":"# Module 02\n\n## LLM: принципы работы, токены, возможности и ограничения\n\n- Как модель думает о тексте\n- Что такое токены и стоимость\n- Где у LLM сильные и слабые стороны","x":420,"y":420,"width":560,"height":340},
+		{"id":"module-03","type":"text","text":"# Module 03\n\n## Агенты и мультиагентные системы: OpenClaw\n\n- Что такое агент\n- Роли, orchestration, handoff\n- Как строятся агентные цепочки","x":780,"y":920,"width":540,"height":300}
+	],
+	"edges":[
+		{"id":"edge-title-01","fromNode":"open-lesson-title","fromSide":"bottom","toNode":"module-01","toSide":"top"},
+		{"id":"edge-01-02","fromNode":"module-01","fromSide":"right","toNode":"module-02","toSide":"top"},
+		{"id":"edge-02-03","fromNode":"module-02","fromSide":"bottom","toNode":"module-03","toSide":"top"},
+		{"id":"edge-03-04","fromNode":"module-03","fromSide":"right","toNode":"module-04","toSide":"top"},
+		{"id":"edge-04-05","fromNode":"module-04","fromSide":"bottom","toNode":"module-05","toSide":"top"},
+		{"id":"edge-05-06","fromNode":"module-05","fromSide":"right","toNode":"module-06","toSide":"top"},
+		{"id":"edge-06-07","fromNode":"module-06","fromSide":"bottom","toNode":"module-07","toSide":"top"},
+		{"id":"edge-07-08","fromNode":"module-07","fromSide":"right","toNode":"module-08","toSide":"top"},
+		{"id":"edge-08-09","fromNode":"module-08","fromSide":"bottom","toNode":"module-09","toSide":"top"},
+		{"id":"edge-09-10","fromNode":"module-09","fromSide":"right","toNode":"module-10","toSide":"top"},
+		{"id":"edge-10-11","fromNode":"module-10","fromSide":"bottom","toNode":"module-11","toSide":"top"},
+		{"id":"edge-11-12","fromNode":"module-11","fromSide":"right","toNode":"module-12","toSide":"top"}
+	]
 }
