@@ -1,7 +1,7 @@
 {
 	"nodes":[
 		{"id":"module-01-title","type":"text","text":"# Module 01\n\n## Введение в AI и современные инструменты","x":0,"y":0,"width":720,"height":220},
-		{"id":"module-01-outline","type":"text","text":"## План презентации\n\n- Контекст и цели модуля\n- Ключевые инструменты\n- Практические сценарии\n- Итоги и вопросы","x":560,"y":400,"width":560,"height":240}
+		{"id":"module-01-outline","type":"text","text":"## План \n\n- Знакомство\n- Обзор курса\n- Ключевые инструменты\n\t- Telegram\n\t- Codex\n\t- Github\n\t- NotebookLM\n- Итоги и вопросы","x":540,"y":360,"width":660,"height":420}
 	],
 	"edges":[
 		{"id":"a485533efa97f9ce","fromNode":"module-01-title","fromSide":"bottom","toNode":"module-01-outline","toSide":"left"}
