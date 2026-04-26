@@ -14,7 +14,9 @@
 		{"id":"3ccb8dbf7d4056dd","x":3280,"y":242,"width":400,"height":300,"type":"file","file":"Pasted image 20260426223000.png"},
 		{"id":"920d6f0ea5fd4e5a","x":1960,"y":240,"width":320,"height":368,"type":"text","text":""},
 		{"id":"software-20-image","type":"file","file":"Module_01/img/Pasted image 20260426220404.png","x":759,"y":960,"width":759,"height":345},
-		{"id":"47f27a6178f7818b","x":1875,"y":1133,"width":490,"height":253,"type":"file","file":"Pasted image 20260426223323.png"}
+		{"id":"47f27a6178f7818b","x":1875,"y":1133,"width":490,"height":253,"type":"file","file":"Pasted image 20260426223323.png"},
+		{"id":"06e78aa0eac812e9","x":2600,"y":1160,"width":400,"height":226,"type":"file","file":"Pasted image 20260426223447.png"},
+		{"id":"f8226714c34e5357","x":3280,"y":1160,"width":400,"height":250,"type":"file","file":"Pasted image 20260426223516.png"}
 	],
 	"edges":[
 		{"id":"edge-title-headline","fromNode":"software-30-title","fromSide":"right","toNode":"software-eating-headline","toSide":"left"},
@@ -28,6 +30,8 @@
 		{"id":"8f78e1891c269367","fromNode":"software-10-image","fromSide":"right","toNode":"8e40193677410338","toSide":"left"},
 		{"id":"cce27bbff5193875","fromNode":"8e40193677410338","fromSide":"right","toNode":"71718354f8c7f4c4","toSide":"left"},
 		{"id":"536b251fa1571cff","fromNode":"71718354f8c7f4c4","fromSide":"right","toNode":"3ccb8dbf7d4056dd","toSide":"left"},
-		{"id":"3586a89bee73a5fc","fromNode":"software-20-image","fromSide":"right","toNode":"47f27a6178f7818b","toSide":"left"}
+		{"id":"3586a89bee73a5fc","fromNode":"software-20-image","fromSide":"right","toNode":"47f27a6178f7818b","toSide":"left"},
+		{"id":"57ebe36de2ee6ce5","fromNode":"47f27a6178f7818b","fromSide":"right","toNode":"06e78aa0eac812e9","toSide":"left"},
+		{"id":"e191983934f844d2","fromNode":"06e78aa0eac812e9","fromSide":"right","toNode":"f8226714c34e5357","toSide":"left"}
 	]
 }
