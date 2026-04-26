@@ -26,7 +26,10 @@
 		{"id":"bbf463821afb5b6c","type":"file","file":"Module_01/img/Pasted image 20260426230843.png","x":3720,"y":3202,"width":426,"height":406},
 		{"id":"737861c65eddeb21","type":"text","text":"# Software 3.0 is AI Agents","x":3720,"y":3122,"width":426,"height":80},
 		{"id":"815a1004e8ef12bb","type":"file","file":"Module_01/img/Pasted image 20260426231047.png","x":-1850,"y":-600,"width":400,"height":225},
-		{"id":"06e78aa0eac812e9","type":"file","file":"Module_01/img/Pasted image 20260426223447.png","x":2640,"y":1160,"width":400,"height":226}
+		{"id":"06e78aa0eac812e9","type":"file","file":"Module_01/img/Pasted image 20260426223447.png","x":2640,"y":1160,"width":400,"height":226},
+		{"id":"c6218e3cb6336267","x":3920,"y":1177,"width":400,"height":233,"type":"file","file":"Pasted image 20260426231615.png"},
+		{"id":"14abcec2fcb5f09d","x":4560,"y":1130,"width":678,"height":327,"type":"file","file":"Pasted image 20260426231647.png"},
+		{"id":"70f6bf4f21c0b9dd","x":5400,"y":1130,"width":813,"height":373,"type":"file","file":"Pasted image 20260426231726.png"}
 	],
 	"edges":[
 		{"id":"edge-title-headline","fromNode":"software-30-title","fromSide":"right","toNode":"software-eating-headline","toSide":"left"},
@@ -52,6 +55,9 @@
 		{"id":"84adf57048ced4ce","fromNode":"aae608f5330495a0","fromSide":"bottom","toNode":"b5bbdb7f18bf49d0","toSide":"top"},
 		{"id":"10826d9af709967e","fromNode":"2b5176cfa2dbac95","fromSide":"right","toNode":"737861c65eddeb21","toSide":"left"},
 		{"id":"5e7eebf40cfe55f3","fromNode":"software-stack-image","fromSide":"bottom","toNode":"3c8c5be2eab167b4","toSide":"top"},
-		{"id":"c399808d22978411","fromNode":"software-30-title","fromSide":"bottom","toNode":"815a1004e8ef12bb","toSide":"top"}
+		{"id":"c399808d22978411","fromNode":"software-30-title","fromSide":"bottom","toNode":"815a1004e8ef12bb","toSide":"top"},
+		{"id":"0a231f115262600b","fromNode":"f8226714c34e5357","fromSide":"right","toNode":"c6218e3cb6336267","toSide":"left"},
+		{"id":"b58e7f0dc19e78ce","fromNode":"c6218e3cb6336267","fromSide":"right","toNode":"14abcec2fcb5f09d","toSide":"left"},
+		{"id":"717d50934384fbf5","fromNode":"14abcec2fcb5f09d","fromSide":"right","toNode":"70f6bf4f21c0b9dd","toSide":"left"}
 	]
 }
