@@ -31,7 +31,9 @@
 		{"id":"f958a8be15850a21","type":"file","file":"Pasted image 20260426232028.png","x":7400,"y":1104,"width":716,"height":320},
 		{"id":"aae608f5330495a0","type":"text","text":"# AI is eating software \n","x":924,"y":4140,"width":473,"height":80},
 		{"id":"b5bbdb7f18bf49d0","type":"text","text":"# AI is eating the world \n","x":924,"y":4360,"width":473,"height":87},
-		{"id":"software-30-image","type":"file","file":"Module_01/img/Screenshot 2026-04-26 at 21.56.28.png","x":924,"y":1901,"width":420,"height":500}
+		{"id":"software-30-image","type":"file","file":"Module_01/img/Screenshot 2026-04-26 at 21.56.28.png","x":924,"y":1901,"width":420,"height":500},
+		{"id":"08d042f51f407bbb","x":4320,"y":3131,"width":400,"height":225,"type":"file","file":"Pasted image 20260426234247.png"},
+		{"id":"4c26b3540161e5df","x":4320,"y":3405,"width":400,"height":225,"type":"file","file":"Pasted image 20260426234311.png"}
 	],
 	"edges":[
 		{"id":"edge-title-headline","fromNode":"software-30-title","fromSide":"right","toNode":"software-eating-headline","toSide":"left"},
@@ -62,6 +64,8 @@
 		{"id":"b58e7f0dc19e78ce","fromNode":"c6218e3cb6336267","fromSide":"right","toNode":"14abcec2fcb5f09d","toSide":"left"},
 		{"id":"261955874de62ada","fromNode":"d522734f0ef5d627","fromSide":"right","toNode":"f958a8be15850a21","toSide":"left"},
 		{"id":"c170b54d6f85ce32","fromNode":"14abcec2fcb5f09d","fromSide":"right","toNode":"037fe8054e683d10","toSide":"left"},
-		{"id":"68cca5538010987c","fromNode":"037fe8054e683d10","fromSide":"right","toNode":"d522734f0ef5d627","toSide":"left"}
+		{"id":"68cca5538010987c","fromNode":"037fe8054e683d10","fromSide":"right","toNode":"d522734f0ef5d627","toSide":"left"},
+		{"id":"2d8b5f80895b717d","fromNode":"bbf463821afb5b6c","fromSide":"right","toNode":"08d042f51f407bbb","toSide":"left"},
+		{"id":"8c7c6a4023b458b1","fromNode":"bbf463821afb5b6c","fromSide":"right","toNode":"4c26b3540161e5df","toSide":"left"}
 	]
 }
