@@ -1,10 +1,10 @@
 {
 	"nodes":[
 		{"id":"module-01-outline","type":"text","text":"## План \n\n- Знакомство\n- Обзор курса\n- Ключевые инструменты\n\t- Telegram\n\t- Codex\n\t- Github\n\t- NotebookLM\n- Итоги и вопросы","x":540,"y":360,"width":660,"height":420},
-		{"id":"96d8d217247340bf","x":558,"y":-429,"width":320,"height":400,"type":"file","file":"Module_01/IMAGE 2026-04-26 14:15:26.jpg"},
+		{"id":"96d8d217247340bf","type":"file","file":"Module_01/IMAGE 2026-04-26 14:15:26.jpg","x":558,"y":-429,"width":320,"height":400},
 		{"id":"module-01-title","type":"text","text":"# Module 01\n\n## Введение в AI и современные инструменты","x":-200,"y":160,"width":720,"height":220},
-		{"id":"55311444b8561897","x":558,"y":-340,"width":320,"height":311,"type":"text","text":""},
-		{"id":"2e3a03b504b5f32d","x":620,"y":-720,"width":400,"height":267,"type":"file","file":"Module_01/margaret-hamilton-mit-apollo-code_0.jpg"}
+		{"id":"55311444b8561897","type":"text","text":"","x":558,"y":-340,"width":320,"height":311},
+		{"id":"2e3a03b504b5f32d","type":"file","file":"Module_01/margaret-hamilton-mit-apollo-code_0.jpg","x":620,"y":-720,"width":400,"height":267}
 	],
 	"edges":[
 		{"id":"a485533efa97f9ce","fromNode":"module-01-title","fromSide":"bottom","toNode":"module-01-outline","toSide":"left"}
