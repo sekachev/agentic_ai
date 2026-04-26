@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"software-30-title","type":"text","text":"# Software 3.0\nhttps://www.youtube.com/watch?v=LCEmiRjPEtQ","x":-1960,"y":-960,"width":620,"height":200},
+		{"id":"software-eating-headline","type":"text","text":"## Software is eating the world\n\nИдея Марка Андриссена: цифровые компании постепенно перестраивают целые отрасли с помощью кода, данных и платформ.","x":-1150,"y":-680,"width":700,"height":260},
+		{"id":"3477058140b629c9","type":"link","url":"https://a16z.com/why-software-is-eating-the-world/","x":-305,"y":-480,"width":1160,"height":480},
+		{"id":"software-eating-points","type":"text","text":"## Что меняется\n\n- Software становится ядром бизнеса, а не вспомогательным инструментом.\n- Традиционные отрасли перестраиваются цифровыми компаниями: книги — Amazon, видео — Netflix, музыка — Spotify/iTunes.\n- Конкурентное преимущество смещается в код, данные, платформы и скорость разработки.\n- Каждая компания должна готовиться к тому, что её отрасль будет \"съедена\" софтом — или стать тем, кто ест первым.","x":-160,"y":156,"width":870,"height":356},
+		{"id":"software-10-image","type":"file","file":"Module_01/img/Pasted image 20260426220307.png","x":950,"y":334,"width":778,"height":148},
+		{"id":"8e40193677410338","type":"file","file":"Module_01/img/IMAGE 2026-04-26 14:15:26.jpg","x":1960,"y":208,"width":320,"height":400},
+		{"id":"map-of-github","type":"text","text":"# Map of GitHub\n\nhttps://anvaka.github.io/map-of-github/#2.37/4.26/6.63","x":849,"y":3460,"width":640,"height":220},
+		{"id":"hugging-face-atlas","type":"text","text":"# Hugging Face Models Atlas\n\nhttps://huggingface.co/spaces/Eliahu/Model-Atlas","x":329,"y":3800,"width":660,"height":220},
+		{"id":"software-30-image","type":"file","file":"Module_01/img/Screenshot 2026-04-26 at 21.56.28.png","x":759,"y":2840,"width":420,"height":500},
+		{"id":"software-stack-image","type":"file","file":"Module_01/img/Screenshot 2026-04-26 at 21.56.42.png","x":169,"y":3230,"width":560,"height":502},
+		{"id":"software-20-image","type":"file","file":"Module_01/img/Pasted image 20260426220404.png","x":230,"y":1460,"width":759,"height":345},
+		{"id":"71718354f8c7f4c4","x":2600,"y":275,"width":400,"height":267,"type":"file","file":"Module_01/img/margaret-hamilton-mit-apollo-code_0.jpg"},
+		{"id":"3ccb8dbf7d4056dd","x":3280,"y":242,"width":400,"height":300,"type":"file","file":"Pasted image 20260426223000.png"},
+		{"id":"920d6f0ea5fd4e5a","x":1960,"y":240,"width":320,"height":368,"type":"text","text":""}
+	],
+	"edges":[
+		{"id":"edge-title-headline","fromNode":"software-30-title","fromSide":"right","toNode":"software-eating-headline","toSide":"left"},
+		{"id":"edge-points-software-10","fromNode":"software-eating-points","fromSide":"right","toNode":"software-10-image","toSide":"left"},
+		{"id":"edge-software-10-software-20","fromNode":"software-10-image","fromSide":"bottom","toNode":"software-20-image","toSide":"top"},
+		{"id":"edge-software-30-stack","fromNode":"software-30-image","fromSide":"bottom","toNode":"software-stack-image","toSide":"top"},
+		{"id":"edge-stack-map","fromNode":"software-stack-image","fromSide":"right","toNode":"map-of-github","toSide":"left"},
+		{"id":"edge-map-atlas","fromNode":"map-of-github","fromSide":"bottom","toNode":"hugging-face-atlas","toSide":"top"},
+		{"id":"32c518a2cfbe40c0","fromNode":"software-eating-headline","fromSide":"right","toNode":"3477058140b629c9","toSide":"left"},
+		{"id":"6d24d3084245e0ca","fromNode":"3477058140b629c9","fromSide":"bottom","toNode":"software-eating-points","toSide":"top"},
+		{"id":"8f78e1891c269367","fromNode":"software-10-image","fromSide":"right","toNode":"8e40193677410338","toSide":"left"},
+		{"id":"cce27bbff5193875","fromNode":"8e40193677410338","fromSide":"right","toNode":"71718354f8c7f4c4","toSide":"left"},
+		{"id":"536b251fa1571cff","fromNode":"71718354f8c7f4c4","fromSide":"right","toNode":"3ccb8dbf7d4056dd","toSide":"left"}
+	]
+}
