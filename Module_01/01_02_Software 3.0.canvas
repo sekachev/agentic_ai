@@ -27,9 +27,9 @@
 		{"id":"737861c65eddeb21","type":"text","text":"# Software 3.0 is AI Agents","x":3720,"y":3122,"width":426,"height":80},
 		{"id":"815a1004e8ef12bb","type":"file","file":"Module_01/img/Pasted image 20260426231047.png","x":-1850,"y":-600,"width":400,"height":225},
 		{"id":"06e78aa0eac812e9","type":"file","file":"Module_01/img/Pasted image 20260426223447.png","x":2640,"y":1160,"width":400,"height":226},
-		{"id":"c6218e3cb6336267","x":3920,"y":1177,"width":400,"height":233,"type":"file","file":"Pasted image 20260426231615.png"},
-		{"id":"14abcec2fcb5f09d","x":4560,"y":1130,"width":678,"height":327,"type":"file","file":"Pasted image 20260426231647.png"},
-		{"id":"70f6bf4f21c0b9dd","x":5400,"y":1130,"width":813,"height":373,"type":"file","file":"Pasted image 20260426231726.png"}
+		{"id":"c6218e3cb6336267","type":"file","file":"Module_01/Pasted image 20260426231615.png","x":3920,"y":1177,"width":400,"height":233},
+		{"id":"14abcec2fcb5f09d","type":"file","file":"Module_01/Pasted image 20260426231647.png","x":4560,"y":1130,"width":678,"height":327},
+		{"id":"d522734f0ef5d627","type":"file","file":"Module_01/Pasted image 20260426231841.png","x":5347,"y":1104,"width":813,"height":386}
 	],
 	"edges":[
 		{"id":"edge-title-headline","fromNode":"software-30-title","fromSide":"right","toNode":"software-eating-headline","toSide":"left"},
@@ -58,6 +58,6 @@
 		{"id":"c399808d22978411","fromNode":"software-30-title","fromSide":"bottom","toNode":"815a1004e8ef12bb","toSide":"top"},
 		{"id":"0a231f115262600b","fromNode":"f8226714c34e5357","fromSide":"right","toNode":"c6218e3cb6336267","toSide":"left"},
 		{"id":"b58e7f0dc19e78ce","fromNode":"c6218e3cb6336267","fromSide":"right","toNode":"14abcec2fcb5f09d","toSide":"left"},
-		{"id":"717d50934384fbf5","fromNode":"14abcec2fcb5f09d","fromSide":"right","toNode":"70f6bf4f21c0b9dd","toSide":"left"}
+		{"id":"ff3c2d6b33c52be7","fromNode":"14abcec2fcb5f09d","fromSide":"right","toNode":"d522734f0ef5d627","toSide":"left"}
 	]
 }
