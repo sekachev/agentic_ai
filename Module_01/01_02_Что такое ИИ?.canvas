@@ -1,7 +1,7 @@
 {
 	"nodes":[
 		{"id":"software-30-title","type":"text","text":"# Что такое ИИ?\nhttps://www.youtube.com/watch?v=LCEmiRjPEtQ\n\nAndrey Karpathy","x":-1960,"y":-960,"width":620,"height":200},
-		{"id":"software-eating-headline","type":"text","text":"## Software is eating the world\n\nИдея Марка Андриссена: цифровые компании постепенно перестраивают целые отрасли с помощью кода, данных и платформ.","x":-1150,"y":-680,"width":700,"height":260},
+		{"id":"software-eating-headline","type":"text","text":"## Software is eating the world\n\n","x":-1150,"y":-680,"width":700,"height":260},
 		{"id":"3477058140b629c9","type":"link","url":"https://a16z.com/why-software-is-eating-the-world/","x":-305,"y":-480,"width":1160,"height":480},
 		{"id":"815a1004e8ef12bb","type":"file","file":"Module_01/img/Pasted image 20260426231047.png","x":-1850,"y":-600,"width":400,"height":225},
 		{"id":"737861c65eddeb21","type":"text","text":"# Software 3.0 is AI Agents","x":2680,"y":4034,"width":426,"height":80},
