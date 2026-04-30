@@ -1,5 +1,5 @@
 
-
+---
 # Генеративные модели
 
 ```
@@ -8,12 +8,12 @@
 
 Модель из двух параметров
 
-
+---
 # Большие языковые модели
 
 https://www.youtube.com/watch?v=YYjlCrpH2is
 
-
+---
 # Архитектура трансформера
 
 ![[Pasted image 20260429231730.png]]
@@ -22,6 +22,7 @@ https://www.youtube.com/watch?v=YYjlCrpH2is
 
  https://poloclub.github.io/transformer-explainer/
 
+---
 # Галюцинации
 	
  Не слова, а токены https://platform.openai.com/tokenizer
@@ -32,9 +33,12 @@ https://www.youtube.com/watch?v=YYjlCrpH2is
 
 ![[Pasted image 20260429225206.png]]
 
+---
+# Откуда модель все знает?
 
 ![[telegram-cloud-photo-size-2-5447143194744264082-y.jpg]]
 
+---
 
 
 - Системный промпт
