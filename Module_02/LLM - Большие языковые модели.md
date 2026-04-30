@@ -66,9 +66,13 @@ https://chat.sekachev.ee
 --- 
 # LLM не про решение задач! 
 
-https://x.com/Liam06972452/status/2044051379916882067
+---
 
-![[Pasted image 20260430085236.png]]
+![[Pasted image 20260430085610.png]]
+
+---
+![[Pasted image 20260430085808.png]]
+
 
 ---
 # Какая модель самая умная?
