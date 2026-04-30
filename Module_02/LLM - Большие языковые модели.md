@@ -1,9 +1,22 @@
 
 
-![[Pasted image 20260429231730.png]]
+# Генеративные модели
 
+```
+Данные -> Модель -> Предсказание
+```
+
+Модель из двух параметров
+
+
+# Большие языковые модели
+
+![[Pasted image 20260429231730.png]]
 - Черный ящик, который предсказывает слово
 	- Насколько это сильная идея
+
+
+# Архитектура трансформера
 
 - Как устроен этот ящик? Архитектура трансформера https://poloclub.github.io/transformer-explainer/
 	-  Не слова, а токены https://platform.openai.com/tokenizer
@@ -15,6 +28,8 @@
 - Reasoning 
 - Function(Tool) calling
 -
+Open-source  https://artificialanalysis.ai/models/open-source
+
 ![[Pasted image 20260429225206.png]]
 
 https://chat.sekachev.ee
