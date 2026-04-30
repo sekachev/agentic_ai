@@ -11,12 +11,17 @@
 
 # Большие языковые модели
 
+https://www.youtube.com/watch?v=YYjlCrpH2is
+
+
+# Архитектура трансформера
+
 ![[Pasted image 20260429231730.png]]
 - Черный ящик, который предсказывает слово
 	- Насколько это сильная идея
 
 
-# Архитектура трансформера
+
 
 - Как устроен этот ящик? Архитектура трансформера https://poloclub.github.io/transformer-explainer/
 	-  Не слова, а токены https://platform.openai.com/tokenizer
