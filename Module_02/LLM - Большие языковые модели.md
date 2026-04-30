@@ -64,7 +64,7 @@ https://chat.sekachev.ee
 
 
 --- 
-# LLM не про решение задач! 
+# LLM не про решение новых задач! 
 
 ---
 
@@ -77,7 +77,7 @@ https://chat.sekachev.ee
 ---
 # Какая модель самая умная?
 https://artificialanalysis.ai/
-[openrouter](https://openrouter.ai/rankings) 
+
 
 
 --- 
@@ -104,6 +104,8 @@ Quantization hf.co
 
 ---
 # Цена
+
+[openrouter](https://openrouter.ai/rankings) 
 
 ---
 # Проблема stateless
