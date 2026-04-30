@@ -33,7 +33,7 @@ https://www.youtube.com/watch?v=YYjlCrpH2is
 ![[Pasted image 20260429225206.png]]
 
 
-
+![[telegram-cloud-photo-size-2-5447143194744264082-y.jpg]]
 
 
 
