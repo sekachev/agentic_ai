@@ -18,13 +18,13 @@ https://www.youtube.com/watch?v=YYjlCrpH2is
 
 ![[Pasted image 20260429231730.png]]
 - Черный ящик, который предсказывает слово
-	- Насколько это сильная идея
 
 
-
-
-- Как устроен этот ящик? Архитектура трансформера https://poloclub.github.io/transformer-explainer/
-	-  Не слова, а токены https://platform.openai.com/tokenizer
+ https://poloclub.github.io/transformer-explainer/
+	
+	
+	
+ Не слова, а токены https://platform.openai.com/tokenizer
 	- переводим токены в векторы в пространстве смыслов https://projector.tensorflow.org/?utm_source=chatgpt.com
     - арифмитические операции с векторами
     - Предсказание следующего слова
