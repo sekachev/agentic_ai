@@ -21,13 +21,22 @@ https://www.youtube.com/watch?v=YYjlCrpH2is
 
 
  https://poloclub.github.io/transformer-explainer/
-	
-	
+
+# Галюцинации
 	
  Не слова, а токены https://platform.openai.com/tokenizer
-	- переводим токены в векторы в пространстве смыслов https://projector.tensorflow.org/?utm_source=chatgpt.com
+
+переводим токены в векторы (пространство смыслов) https://projector.tensorflow.org/?utm_source=chatgpt.com
+
     - арифмитические операции с векторами
-    - Предсказание следующего слова
+
+![[Pasted image 20260429225206.png]]
+
+
+
+
+
+
 - Системный промпт
 - Проблема stateless
 - Reasoning 
