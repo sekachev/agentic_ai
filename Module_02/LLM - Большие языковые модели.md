@@ -47,8 +47,10 @@ https://youtu.be/LPZh9BOjkQs?si=RvgFpLBA1Sx9a5Mw&t=277
 ---
 # Откуда модель все знает?
 
+![[Pasted image 20260430095338.png]]
 
 ---
+# Размер модели vs Знания
 
 ![[telegram-cloud-photo-size-2-5447143194744264082-y.jpg]]
 
