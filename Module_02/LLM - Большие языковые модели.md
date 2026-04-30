@@ -22,14 +22,23 @@ https://www.youtube.com/watch?v=YYjlCrpH2is
 
  https://poloclub.github.io/transformer-explainer/
 
+
+
 ---
-# Что такое токены?
+# Визуализация
+
+https://youtu.be/LPZh9BOjkQs?si=RvgFpLBA1Sx9a5Mw&t=277
+
+
+---
+# Что такое токен?
 	
  Не слова, а токены https://platform.openai.com/tokenizer
 
 переводим токены в векторы (пространство смыслов) https://projector.tensorflow.org/?utm_source=chatgpt.com
 
-    - арифмитические операции с векторами
+---
+# Арифметические операции с векторами
 
 --- 
 # Галюцинации
@@ -37,6 +46,11 @@ https://www.youtube.com/watch?v=YYjlCrpH2is
 
 ---
 # Откуда модель все знает?
+
+
+
+
+--- 
 
 ![[telegram-cloud-photo-size-2-5447143194744264082-y.jpg]]
 
@@ -90,10 +104,3 @@ Context management
 # Нам нужны действия
 
 function calling
-
----
-# Визуализация
-
-https://youtu.be/LPZh9BOjkQs?si=RvgFpLBA1Sx9a5Mw&t=277
-
-
