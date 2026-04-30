@@ -44,40 +44,18 @@ https://youtu.be/LPZh9BOjkQs?si=RvgFpLBA1Sx9a5Mw&t=277
 # Арифметические операции с векторами
 
 --- 
-# Галюцинации
-![[Pasted image 20260429225206.png]]
+
 
 ---
-# Откуда модель все знает?
+# Completion vs. Chat
 
-![[Pasted image 20260430095338.png]]
+Лучший фильм про звездные войны это ________
 
----
-# Размер модели vs Знания
-
-![[telegram-cloud-photo-size-2-5447143194744264082-y.jpg]]
-
----
-# Способность к рассуждению
-
-- Reasoning
 ---
 # Насколько модели умные?
 
 https://math.sekachev.ee
 https://chat.sekachev.ee
-
-
---- 
-# LLM не про решение новых задач! 
-
----
-
-![[Pasted image 20260430085610.png]]
-
----
-![[Pasted image 20260430085808.png]]
-
 
 ---
 # Какая модель самая умная?
@@ -94,9 +72,34 @@ Open-source  https://artificialanalysis.ai/models/open-source
 Quantization hf.co
 
 ---
-# Completion vs. Chat
+# Способность к рассуждению
 
-Лучший фильм про звездные войны это ________
+- Reasoning
+---
+# Размер модели vs Знания
+
+![[telegram-cloud-photo-size-2-5447143194744264082-y.jpg]]
+
+
+---
+# Галюцинации
+![[Pasted image 20260429225206.png]]
+
+
+
+# LLM не про решение новых задач! 
+
+---
+
+![[Pasted image 20260430085610.png]]
+
+---
+![[Pasted image 20260430085808.png]]
+
+
+---
+
+
 
 ---
 # Ограничения 
