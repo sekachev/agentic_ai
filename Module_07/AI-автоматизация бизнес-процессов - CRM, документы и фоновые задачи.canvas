@@ -1,0 +1,95 @@
+{
+  "nodes": [
+    {
+      "id": "module-07-title",
+      "type": "text",
+      "text": "# Модуль 7\n\n## AI-автоматизация бизнес-процессов\n\nCRM, SMM-процессы, документы и фоновые задачи",
+      "x": 0,
+      "y": 0,
+      "width": 760,
+      "height": 260
+    },
+    {
+      "id": "module-07-context",
+      "type": "text",
+      "text": "## Модуль 7: зачем автоматизация бизнесу\n\n- Снять ручную рутину с CRM, документов и повторяющихся операций\n- Превратить таблицы, PDF, письма и формы в управляемый процесс\n- Оставить человеку контроль, проверку и решения в нестандартных случаях\n- Сначала собрать MVP, затем усложнять архитектуру",
+      "x": 860,
+      "y": 120,
+      "width": 700,
+      "height": 320
+    },
+    {
+      "id": "module-07-documents",
+      "type": "text",
+      "text": "## Модуль 7: документы и данные\n\n- Распознавание чеков, счетов, PDF, фото и CSV\n- Извлечение структурированных данных мультимодальными моделями\n- Генерация счетов, договоров, дипломов и отчётов по шаблонам\n- Передача результата в CRM, бухгалтерию, Google Drive или таблицу",
+      "x": 360,
+      "y": 520,
+      "width": 760,
+      "height": 340
+    },
+    {
+      "id": "module-07-background",
+      "type": "text",
+      "text": "## Модуль 7: фоновые задачи и интеграции\n\n- Cron запускает регулярные задачи по расписанию\n- Webhook реагирует на внешнее событие сразу, без постоянного опроса\n- Systemd держит сервис или worker постоянно запущенным на VPS\n- Логи помогают понять, что сработало, что упало и почему",
+      "x": 1220,
+      "y": 900,
+      "width": 760,
+      "height": 340
+    },
+    {
+      "id": "module-07-reliability",
+      "type": "text",
+      "text": "## Модуль 7: надёжность и контроль\n\n- Автоматизация должна иметь понятный вход, действие и результат\n- Человек проверяет нестандартные случаи и важные решения\n- API-ключи хранятся в .env и не попадают в публичный GitHub\n- Сложность добавляем постепенно: сначала рабочий MVP, потом улучшения",
+      "x": 720,
+      "y": 1320,
+      "width": 780,
+      "height": 360
+    },
+    {
+      "id": "module-07-homework",
+      "type": "text",
+      "text": "## Модуль 7: домашняя работа\n\n- Прикрутить одну полезную автоматизацию к своей CRM, SMM-системе или учебному проекту\n- Запускать сценарий в фоне: по расписанию, webhook-событию или через кнопку/команду\n- Показать результат: созданная задача, запись, документ, отчёт или уведомление\n- Со звёздочкой: Telegram-бот как интерфейс к автоматизации",
+      "x": 1580,
+      "y": 1720,
+      "width": 820,
+      "height": 360
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-title-context",
+      "fromNode": "module-07-title",
+      "fromSide": "right",
+      "toNode": "module-07-context",
+      "toSide": "left"
+    },
+    {
+      "id": "edge-context-documents",
+      "fromNode": "module-07-context",
+      "fromSide": "bottom",
+      "toNode": "module-07-documents",
+      "toSide": "top"
+    },
+    {
+      "id": "edge-documents-background",
+      "fromNode": "module-07-documents",
+      "fromSide": "right",
+      "toNode": "module-07-background",
+      "toSide": "top"
+    },
+    {
+      "id": "edge-background-reliability",
+      "fromNode": "module-07-background",
+      "fromSide": "bottom",
+      "toNode": "module-07-reliability",
+      "toSide": "top"
+    },
+    {
+      "id": "edge-reliability-homework",
+      "fromNode": "module-07-reliability",
+      "fromSide": "right",
+      "toNode": "module-07-homework",
+      "toSide": "top"
+    }
+  ]
+}
