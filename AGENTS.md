@@ -1,5 +1,12 @@
 # AGENTS
 
+<!--
+Author: Nikolay Sekachev
+GitHub: https://github.com/sekachev
+Source: https://github.com/sekachev/agentic_ai
+License: MIT
+-->
+
 ## Презентации в формате Obsidian Canvas
 
 В этом проекте презентации для модулей и обзорных уроков делаются в формате `.canvas`.

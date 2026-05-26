@@ -1,5 +1,12 @@
 # Agentic AI & LLM Course: От основ нейросетей до автономных агентов 🚀
 
+<!--
+Author: Nikolay Sekachev
+GitHub: https://github.com/sekachev
+Source: https://github.com/sekachev/agentic_ai
+License: MIT
+-->
+
 > **[RU]** Полный практический курс по созданию автономных агентских систем.  
 > **[EN]** A comprehensive course on building autonomous agent systems with LLMs, from neural network foundations to advanced agentic design patterns.
 
@@ -113,6 +120,6 @@
 
 ## ⚖️ Лицензия
 
-Материалы распространяются по лицензии **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**.
+Материалы распространяются по лицензии **MIT**.
 
-Вы можете свободно использовать и модифицировать материалы в некоммерческих целях с указанием авторства и сохранением той же лицензии.
+Вы можете свободно использовать, модифицировать и распространять материалы при сохранении copyright notice и текста лицензии.
