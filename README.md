@@ -27,6 +27,13 @@ License: MIT
 
 ---
 
+## 🎥 Видео курса
+
+Часть видеозаписей курса доступна в YouTube-плейлисте:  
+[Agentic AI & LLM Course — YouTube](https://www.youtube.com/playlist?list=PLK2n7UikL8J3WrHnBNQr_MQNmq3IB1o1b)
+
+---
+
 ## 📚 Как начать работу
 
 Чтобы все настройки и интерактивные презентации подтянулись автоматически:
