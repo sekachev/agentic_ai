@@ -1,0 +1,143 @@
+{
+  "nodes": [
+    {
+      "id": "title",
+      "type": "text",
+      "text": "# Agentic AI for Hospitality\n\n## Next-Level AI Systems for Hotels, Restaurants and Service Businesses\n\nAgentic AI turns models into controlled business workflows: context, tools, data, approvals and traceable results.",
+      "x": 0,
+      "y": 0,
+      "width": 860,
+      "height": 300
+    },
+    {
+      "id": "fit",
+      "type": "text",
+      "text": "## Why this fits Haaga-Helia\n\nTheir portfolio already has strong hospitality topics:\n\n- hospitality innovation;\n- strategic revenue management;\n- strategic pricing and distribution;\n- guest experience;\n- customer and business intelligence;\n- F&B, law and leadership.\n\nThe opportunity is to connect these areas through practical AI agent workflows.",
+      "x": 980,
+      "y": 0,
+      "width": 880,
+      "height": 440
+    },
+    {
+      "id": "market",
+      "type": "text",
+      "text": "## Market scan\n\nExisting AI hospitality courses usually cover:\n\n- hotel management and guest service;\n- front office and reservations;\n- revenue, pricing and distribution;\n- sales, marketing and personalization;\n- digital transformation and AI strategy.\n\nUseful, but mostly function-specific and tool-oriented.",
+      "x": 1320,
+      "y": 620,
+      "width": 820,
+      "height": 400
+    },
+    {
+      "id": "difference",
+      "type": "text",
+      "text": "## Our stronger angle\n\nTeach agents as systems, not tools.\n\nParticipants learn how agents:\n\n- receive hospitality context;\n- use business data;\n- call tools and workflows;\n- escalate decisions;\n- leave a trace;\n- stay under human control.",
+      "x": 480,
+      "y": 1160,
+      "width": 820,
+      "height": 420
+    },
+    {
+      "id": "agent-map",
+      "type": "text",
+      "text": "## Hospitality Agent Map\n\n1. Guest Experience Agents\n2. Commercial Agents\n3. Revenue and Distribution Agents\n4. Operations and F&B Agents\n5. Back-Office and Governance Agents\n\nThis becomes the branded framework of the course.",
+      "x": 1500,
+      "y": 1660,
+      "width": 780,
+      "height": 360
+    },
+    {
+      "id": "route",
+      "type": "text",
+      "text": "## Course route\n\n- Agentic AI as the next level of AI.\n- Hospitality data, context and knowledge.\n- Guest experience agents.\n- Commercial agents: marketing, sales, segmentation.\n- Revenue and distribution agents.\n- Operations, F&B and back-office agents.\n- Governance, ROI and implementation roadmap.",
+      "x": 760,
+      "y": 2240,
+      "width": 880,
+      "height": 420
+    },
+    {
+      "id": "demo",
+      "type": "text",
+      "text": "## Demo lesson\n\n**From Guest Signals to Service Recovery Actions**\n\n1. Import reviews, emails and internal notes.\n2. Classify topics, severity and business impact.\n3. Draft response options in brand tone.\n4. Escalate high-risk cases.\n5. Create weekly insights for operations, marketing and revenue.\n6. Update SOPs.",
+      "x": 1800,
+      "y": 2820,
+      "width": 840,
+      "height": 440
+    },
+    {
+      "id": "reuse",
+      "type": "text",
+      "text": "## What to reuse from Nikolay's course\n\nUse strongly:\n\n- agents, tools, memory and dynamic context;\n- workflow automation and integrations;\n- business process automation;\n- voice and speech agents;\n- multimodal AI for documents, menus, images and OCR;\n- governance and human-in-the-loop.\n\nKeep coding and infrastructure under the hood.",
+      "x": 980,
+      "y": 3400,
+      "width": 900,
+      "height": 500
+    },
+    {
+      "id": "lecturer",
+      "type": "text",
+      "text": "## Why Nikolay\n\n- AI for Business Leaders, eMBA programme, Stockholm School of Economics in Riga.\n- 25 years in business and investments.\n- MBA in finance, astrophysics and law background.\n- Corporate AI education in Estonia and Latvia.\n- Practical programmes on LLMs, agents, workflow automation, voice, multimodal AI and business transformation.\n\nsekachev.ee",
+      "x": 2080,
+      "y": 4060,
+      "width": 880,
+      "height": 500
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "fromNode": "title",
+      "fromSide": "right",
+      "toNode": "fit",
+      "toSide": "left"
+    },
+    {
+      "id": "e2",
+      "fromNode": "fit",
+      "fromSide": "bottom",
+      "toNode": "market",
+      "toSide": "top"
+    },
+    {
+      "id": "e3",
+      "fromNode": "market",
+      "fromSide": "left",
+      "toNode": "difference",
+      "toSide": "top"
+    },
+    {
+      "id": "e4",
+      "fromNode": "difference",
+      "fromSide": "right",
+      "toNode": "agent-map",
+      "toSide": "top"
+    },
+    {
+      "id": "e5",
+      "fromNode": "agent-map",
+      "fromSide": "left",
+      "toNode": "route",
+      "toSide": "top"
+    },
+    {
+      "id": "e6",
+      "fromNode": "route",
+      "fromSide": "right",
+      "toNode": "demo",
+      "toSide": "top"
+    },
+    {
+      "id": "e7",
+      "fromNode": "demo",
+      "fromSide": "left",
+      "toNode": "reuse",
+      "toSide": "top"
+    },
+    {
+      "id": "e8",
+      "fromNode": "reuse",
+      "fromSide": "right",
+      "toNode": "lecturer",
+      "toSide": "top"
+    }
+  ]
+}
